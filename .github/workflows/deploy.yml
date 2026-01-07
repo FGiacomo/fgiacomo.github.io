@@ -8,13 +8,29 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # 1️⃣ Checkout repo
       - uses: actions/checkout@v4
+
+      # 2️⃣ Setup Node.js
       - uses: actions/setup-node@v4
         with:
           node-version: 18
+
+      # 3️⃣ Install Hexo CLI solo globalmente
+      - run: npm install hexo-cli -g
+
+      # 4️⃣ Installa dipendenze locali
       - run: npm install
-      - run: git clone https://github.com/probberechts/hexo-theme-cactus themes/cactus
+
+      # 5️⃣ Clona il tema cactus prima della build
+      - run: |
+          rm -rf themes/cactus
+          git clone https://github.com/probberechts/hexo-theme-cactus themes/cactus
+
+      # 6️⃣ Genera il sito
       - run: npx hexo generate
+
+      # 7️⃣ Deploy su GitHub Pages
       - uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
