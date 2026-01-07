@@ -1,0 +1,14 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "scripts": {
+    "build": "hexo generate"
+  },
+  "dependencies": {
+    "hexo": "^7.0.0",
+    "hexo-cli": "^4.3.0",
+    "hexo-deployer-git": "^4.0.0",
+    "hexo-renderer-marked": "^6.0.0",
+    "hexo-renderer-scss": "^1.2.0"
+  }
+}
