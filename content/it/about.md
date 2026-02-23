@@ -3,11 +3,11 @@ title: "about me"
 url: "/it/about/"
 ---
 
-<div class="prompt"><span>~</span> $ cat about.md</div>
+<!-- <div class="prompt"><span>~</span> $ cat about.md</div> -->
 
 <div class="hero">
   <div>
-    <img class="avatar" src="/pic/io.JPG" alt="Giacomo F."
+    <img class="avatar" src="/io.JPG" alt="Giacomo F."
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
     <div class="avatar-placeholder" style="display:none;"><span>👤</span>foto.jpg</div>
   </div>
