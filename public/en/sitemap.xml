@@ -2,88 +2,88 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/about/</loc>
+    <loc>https://fgiacomo.github.io/en/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/about/"
+                href="https://fgiacomo.github.io/it/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/about/"
+                href="https://fgiacomo.github.io/en/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/</loc>
+    <loc>https://fgiacomo.github.io/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/categories/"
+                href="https://fgiacomo.github.io/it/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="https://fgiacomo.github.io/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/contacts/</loc>
+    <loc>https://fgiacomo.github.io/en/contacts/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/contacts/"
+                href="https://fgiacomo.github.io/it/contacts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/contacts/"
+                href="https://fgiacomo.github.io/en/contacts/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/cv/</loc>
+    <loc>https://fgiacomo.github.io/en/cv/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/cv/"
+                href="https://fgiacomo.github.io/it/cv/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/cv/"
+                href="https://fgiacomo.github.io/en/cv/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>https://fgiacomo.github.io/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/"
+                href="https://fgiacomo.github.io/it/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/"
+                href="https://fgiacomo.github.io/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/projects/</loc>
+    <loc>https://fgiacomo.github.io/en/projects/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/projects/"
+                href="https://fgiacomo.github.io/it/projects/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/projects/"
+                href="https://fgiacomo.github.io/en/projects/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
+    <loc>https://fgiacomo.github.io/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="http://localhost:1313/it/tags/"
+                href="https://fgiacomo.github.io/it/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="https://fgiacomo.github.io/en/tags/"
                 />
   </url>
 </urlset>
