@@ -3,7 +3,7 @@ title: "projects"
 url: "/en/projects/"
 ---
 
-<div class="prompt"><span>~</span> $ ls -la projects/</div>
+<!-- <div class="prompt"><span>~</span> $ ls -la projects/</div> -->
 
 <div class="page-header">
   <div class="page-title">projects</div>

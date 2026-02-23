@@ -3,7 +3,7 @@ title: "contacts"
 url: "/it/contacts/"
 ---
 
-<div class="prompt"><span>~</span> $ cat contacts.md</div>
+<!-- <div class="prompt"><span>~</span> $ cat cv.md</div> -->
 
 <div class="page-header">
   <div class="page-title">contacts</div>
