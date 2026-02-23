@@ -21,7 +21,7 @@ url: "/en/cv/"
   </div>
 
   <div class="entry">
-    <div class="entry-title">IT Strategy Consultant</div>
+    <div class="entry-title">ICT Strategy Consultant</div>
     <div class="entry-date">07/2025 — 01/2026</div>
     <div class="entry-sub">KPMG Italy · Verona, Italy</div>
     <div class="entry-desc">Member of the CIO Advisory team at Nolan, Norton Italia, supporting organizations in defining IT strategies, digital transformation programs, ICT investment optimization, and SOX compliance. Activities include technology and data strategy design, ICT planning, governance models, vendor management, cybersecurity, and compliance. Also involved in PMO activities for complex technology and organizational projects.</div>
