@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>about me — Giacomo F.</title>
+  <meta name="description" content="" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/main.css" />
+  
+  <link rel="alternate" hreflang="it" href="http://localhost:1313/it/" />
+  
+  <link rel="alternate" hreflang="en" href="http://localhost:1313/en/" />
+  
+</head>
+<body><nav class="navbar">
+  <div class="navbar-inner">
+    <a class="nav-logo" href="/en/about/">Giacomo F.</a>
+
+    
+    <div class="nav-right">
+      <ul class="nav-links">
+        
+        <li>
+          <a href="/en/about/"
+            class="active">
+            about me
+          </a>
+        </li>
+        
+        <li>
+          <a href="/en/cv/"
+            >
+            cv
+          </a>
+        </li>
+        
+        <li>
+          <a href="/en/projects/"
+            >
+            projects
+          </a>
+        </li>
+        
+        <li>
+          <a href="/en/contacts/"
+            >
+            contacts
+          </a>
+        </li>
+        
+      </ul>
+
+      <div class="lang-toggle">
+        <button class="lang-btn "
+                onclick="switchLang('it')">IT</button>
+        <button class="lang-btn active"
+                onclick="switchLang('en')">EN</button>
+      </div>
+    </div>
+
+    
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+
+<div class="mobile-nav" id="mobile-nav">
+  
+  <a href="/en/about/"
+     class="active">
+     about me
+  </a>
+  
+  <a href="/en/cv/"
+     >
+     cv
+  </a>
+  
+  <a href="/en/projects/"
+     >
+     projects
+  </a>
+  
+  <a href="/en/contacts/"
+     >
+     contacts
+  </a>
+  
+  <div class="lang-row">
+    <button class="lang-btn "
+            onclick="switchLang('it')">🇮🇹 IT</button>
+    <button class="lang-btn active"
+            onclick="switchLang('en')">🇬🇧 EN</button>
+  </div>
+</div>
+<main class="page">
+  <div class="prompt"><span>~</span> $ cat about.md</div>
+<div class="hero">
+  <div>
+    <img class="avatar" src="/foto.jpg" alt="Giacomo F."
+         onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+    <div class="avatar-placeholder" style="display:none;"><span>👤</span>foto.jpg</div>
+  </div>
+  <div>
+    <div class="hero-name">Giacomo F.<span class="cursor"></span></div>
+    <div class="hero-subtitle">// Software Engineer · Backend &amp; Systems</div>
+    <div class="hero-meta">
+      <span>📍 Milan, Italy</span>
+      <a href="mailto:tua@email.it">tua@email.it</a>
+      <a href="https://github.com/fgiacomo" target="_blank">github</a>
+      <a href="https://linkedin.com/in/fgiacomo" target="_blank">linkedin</a>
+    </div>
+  </div>
+</div>
+<section class="section">
+  <div class="section-title">bio</div>
+  <div class="body-text">
+    <p>Hey! I'm a software engineer with 5+ years of experience building distributed systems and scalable APIs. I work mainly with Go and Python, and I spend more time than I'd like to admit optimizing SQL queries.</p>
+    <p>I started coding on my father's Commodore 64 and I've been fascinated by making machines do things ever since. Professionally I've specialized in backend work — microservices, message queues, cloud infrastructure — but the curiosity for <em>"how does this actually work"</em> has never left me.</p>
+    <p>Outside of code you'll find me reading about operating systems, contributing to open source projects, or hiking with a backpack.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="section-title">interests</div>
+  <div class="tags">
+    <span class="tag soft">distributed systems</span>
+    <span class="tag soft">open source</span>
+    <span class="tag soft">linux internals</span>
+    <span class="tag soft">database theory</span>
+    <span class="tag soft">cli tools</span>
+    <span class="tag soft">hiking</span>
+    <span class="tag soft">photography</span>
+    <span class="tag soft">specialty coffee</span>
+  </div>
+</section>
+
+  <footer class="footer">
+    <span>last updated: Feb 2026</span>
+    <span><a href="https://github.com/fgiacomo" target="_blank">github</a></span>
+  </footer>
+
+  </main>
+
+  <script src="/js/lang.js"></script>
+  <script src="/js/nav.js"></script>
+</body>
+</html>

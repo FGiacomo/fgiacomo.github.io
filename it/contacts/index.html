@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="it">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>contacts — Giacomo F.</title>
+  <meta name="description" content="" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/main.css" />
+  
+  <link rel="alternate" hreflang="it" href="http://localhost:1313/it/" />
+  
+  <link rel="alternate" hreflang="en" href="http://localhost:1313/en/" />
+  
+</head>
+<body><nav class="navbar">
+  <div class="navbar-inner">
+    <a class="nav-logo" href="/it/about/">Giacomo F.</a>
+
+    
+    <div class="nav-right">
+      <ul class="nav-links">
+        
+        <li>
+          <a href="/it/about/"
+            >
+            about me
+          </a>
+        </li>
+        
+        <li>
+          <a href="/it/cv/"
+            >
+            cv
+          </a>
+        </li>
+        
+        <li>
+          <a href="/it/projects/"
+            >
+            projects
+          </a>
+        </li>
+        
+        <li>
+          <a href="/it/contacts/"
+            class="active">
+            contacts
+          </a>
+        </li>
+        
+      </ul>
+
+      <div class="lang-toggle">
+        <button class="lang-btn active"
+                onclick="switchLang('it')">IT</button>
+        <button class="lang-btn "
+                onclick="switchLang('en')">EN</button>
+      </div>
+    </div>
+
+    
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+
+<div class="mobile-nav" id="mobile-nav">
+  
+  <a href="/it/about/"
+     >
+     about me
+  </a>
+  
+  <a href="/it/cv/"
+     >
+     cv
+  </a>
+  
+  <a href="/it/projects/"
+     >
+     projects
+  </a>
+  
+  <a href="/it/contacts/"
+     class="active">
+     contacts
+  </a>
+  
+  <div class="lang-row">
+    <button class="lang-btn active"
+            onclick="switchLang('it')">🇮🇹 IT</button>
+    <button class="lang-btn "
+            onclick="switchLang('en')">🇬🇧 EN</button>
+  </div>
+</div>
+<main class="page">
+  <div class="prompt"><span>~</span> $ cat contacts.md</div>
+<div class="page-header">
+  <div class="page-title">contacts</div>
+</div>
+<section class="section">
+  <div class="section-title">links</div>
+  <div class="contact-list">
+    <a class="contact-row" href="mailto:tua@email.it">
+      <div class="cr-icon">✉</div>
+      <div class="cr-key">email</div>
+      <div class="cr-value">tua@email.it</div>
+      <div class="cr-arrow">→</div>
+    </a>
+    <a class="contact-row" href="https://github.com/fgiacomo" target="_blank">
+      <div class="cr-icon">⌥</div>
+      <div class="cr-key">github</div>
+      <div class="cr-value">github.com/fgiacomo</div>
+      <div class="cr-arrow">→</div>
+    </a>
+    <a class="contact-row" href="https://linkedin.com/in/fgiacomo" target="_blank">
+      <div class="cr-icon">◈</div>
+      <div class="cr-key">linkedin</div>
+      <div class="cr-value">linkedin.com/in/fgiacomo</div>
+      <div class="cr-arrow">→</div>
+    </a>
+  </div>
+</section>
+<section class="section">
+  <div class="section-title">messaggio diretto</div>
+  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <div class="form-group">
+      <label>nome <span class="req">*</span></label>
+      <input type="text" name="name" placeholder="Il tuo nome" required />
+    </div>
+    <div class="form-group">
+      <label>email <span class="req">*</span></label>
+      <input type="email" name="email" placeholder="tua@email.it" required />
+    </div>
+    <div class="form-group">
+      <label>messaggio <span class="req">*</span></label>
+      <textarea name="message" placeholder="Di cosa vuoi parlare?" required></textarea>
+    </div>
+    <button class="submit-btn" type="submit">send</button>
+    <p class="form-note">// form gestito da <a href="https://formspree.io" target="_blank">Formspree</a>. Sostituisci YOUR_FORM_ID con il tuo endpoint.</p>
+  </form>
+</section>
+
+  <footer class="footer">
+    <span>last updated: Feb 2026</span>
+    <span><a href="https://github.com/fgiacomo" target="_blank">github</a></span>
+  </footer>
+
+  </main>
+
+  <script src="/js/lang.js"></script>
+  <script src="/js/nav.js"></script>
+</body>
+</html>
