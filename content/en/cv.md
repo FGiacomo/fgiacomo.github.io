@@ -5,8 +5,9 @@ url: "/en/cv/"
 
 <div class="prompt"><span>~</span> $ cat cv.md</div>
 
-<div class="dl-btns">
-  <a class="dl-btn" href="/cv-eng.pdf" download>↓ download CV</a>
+<div class="page-header">
+  <div class="page-title">curriculum vitae</div>
+  <a class="dl-btn" href="/cv-eng.pdf" download>↓ scarica PDF</a>
 </div>
 
 <section class="section">
