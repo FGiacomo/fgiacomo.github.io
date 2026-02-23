@@ -1,0 +1,47 @@
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a class="nav-logo" href="/{{ .Lang }}/about/">{{ .Site.Title }}</a>
+
+    {{/* Desktop nav */}}
+    <div class="nav-right">
+      <ul class="nav-links">
+        {{ range .Site.Menus.main }}
+        <li>
+          <a href="{{ .URL }}"
+            {{ if eq $.RelPermalink .URL }}class="active"{{ end }}>
+            {{ .Name }}
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+
+      <div class="lang-toggle">
+        <button class="lang-btn {{ if eq .Lang "it" }}active{{ end }}"
+                onclick="switchLang('it')">IT</button>
+        <button class="lang-btn {{ if eq .Lang "en" }}active{{ end }}"
+                onclick="switchLang('en')">EN</button>
+      </div>
+    </div>
+
+    {{/* Hamburger (mobile) */}}
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+{{/* Mobile drawer */}}
+<div class="mobile-nav" id="mobile-nav">
+  {{ range .Site.Menus.main }}
+  <a href="{{ .URL }}"
+     {{ if eq $.RelPermalink .URL }}class="active"{{ end }}>
+     {{ .Name }}
+  </a>
+  {{ end }}
+  <div class="lang-row">
+    <button class="lang-btn {{ if eq .Lang "it" }}active{{ end }}"
+            onclick="switchLang('it')">🇮🇹 IT</button>
+    <button class="lang-btn {{ if eq .Lang "en" }}active{{ end }}"
+            onclick="switchLang('en')">🇬🇧 EN</button>
+  </div>
+</div>

@@ -1,0 +1,7 @@
+{{ define "main" }}
+  {{ .Content }}
+  <footer class="footer">
+    <span>last updated: {{ now.Format "Jan 2006" }}</span>
+    <span><a href="{{ .Site.Params.github }}" target="_blank">github</a></span>
+  </footer>
+{{ end }}

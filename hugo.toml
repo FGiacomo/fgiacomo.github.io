@@ -1,0 +1,76 @@
+baseURL = "https://fgiacomo.github.io/"
+defaultContentLanguage = "it"
+defaultContentLanguageInSubdir = true
+
+enableRobotsTXT = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  author   = "Giacomo F."
+  email    = "tua@email.it"
+  github   = "https://github.com/fgiacomo"
+  linkedin = "https://linkedin.com/in/fgiacomo"
+
+# ── ITALIANO ───────────────────────────────────────────────────
+[languages.it]
+  languageName = "IT"
+  weight       = 1
+  contentDir   = "content/it"
+  title        = "Giacomo F."
+
+  [languages.it.params]
+    subtitle = "// Software Engineer · Backend & Systems"
+
+  [[languages.it.menus.main]]
+    name = "about me"
+    url = "/it/about/"
+    weight = 1
+
+  [[languages.it.menus.main]]
+    name = "cv"
+    url = "/it/cv/"
+    weight = 2
+
+  [[languages.it.menus.main]]
+    name = "projects"
+    url = "/it/projects/"
+    weight = 3
+
+  [[languages.it.menus.main]]
+    name = "contacts"
+    url = "/it/contacts/"
+    weight = 4
+
+# ── ENGLISH ────────────────────────────────────────────────────
+[languages.en]
+  languageName = "EN"
+  weight       = 2
+  contentDir   = "content/en"
+  title        = "Giacomo F."
+
+  [languages.en.params]
+    subtitle = "// Software Engineer · Backend & Systems"
+
+  [[languages.en.menus.main]]
+    name = "about me"
+    url = "/en/about/"
+    weight = 1
+
+  [[languages.en.menus.main]]
+    name = "cv"
+    url = "/en/cv/"
+    weight = 2
+
+  [[languages.en.menus.main]]
+    name = "projects"
+    url = "/en/projects/"
+    weight = 3
+
+  [[languages.en.menus.main]]
+    name = "contacts"
+    url = "/en/contacts/"
+    weight = 4

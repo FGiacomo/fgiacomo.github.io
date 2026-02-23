@@ -1,0 +1,11 @@
+{{ define "main" }}
+<script>
+  const lang = (navigator.language || navigator.userLanguage || "it")
+    .toLowerCase()
+    .startsWith("it") ? "it" : "en";
+  window.location.replace("/" + lang + "/about/");
+</script>
+<noscript>
+  <meta http-equiv="refresh" content="0; url=/it/about/" />
+</noscript>
+{{ end }}

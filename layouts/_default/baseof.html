@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ .Site.Params.description }}" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/main.css" />
+  {{ range .Site.Languages }}
+  <link rel="alternate" hreflang="{{ .Lang }}" href="{{ $.Site.BaseURL }}{{ .Lang }}/" />
+  {{ end }}
+</head>
+<body>
+
+  {{- partial "navbar.html" . -}}
+
+  <main class="page">
+    {{- block "main" . }}{{- end }}
+  </main>
+
+  <script src="/js/lang.js"></script>
+  <script src="/js/nav.js"></script>
+</body>
+</html>
