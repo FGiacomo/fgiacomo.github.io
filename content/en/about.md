@@ -7,7 +7,7 @@ url: "/en/about/"
 
 <div class="hero">
   <div>
-    <img class="avatar" src="/foto.jpg" alt="Giacomo F."
+    <img class="avatar" src="/pic/io.JPG" alt="Giacomo F."
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
     <div class="avatar-placeholder" style="display:none;"><span>👤</span>foto.jpg</div>
   </div>
