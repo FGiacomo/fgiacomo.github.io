@@ -7,7 +7,7 @@ url: "/en/cv/"
 
 <div class="page-header">
   <div class="page-title">curriculum vitae</div>
-  <a class="dl-btn" href="/cv-eng.pdf" download>↓ scarica PDF</a>
+  <a class="dl-btn" href="/cv-eng.pdf" download>↓ Download PDF</a>
 </div>
 
 <section class="section">
