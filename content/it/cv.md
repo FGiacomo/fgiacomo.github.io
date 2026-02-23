@@ -3,10 +3,10 @@ title: "cv"
 url: "/it/cv/"
 ---
 
-<!-- <div class="prompt"><span>~</span> $ cat cv.md</div> -->
+<div class="prompt"><span>~</span> $ cat cv.md</div>
 
 <div class="dl-btns">
-  <a class="dl-btn" href="/cv-ita.pdf" download>↓ download CV</a>
+  <a class="dl-btn" href="/cv-eng.pdf" download>↓ download CV</a>
 </div>
 
 <section class="section">

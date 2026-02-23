@@ -3,7 +3,7 @@ title: "about me"
 url: "/en/about/"
 ---
 
-<!-- <div class="prompt"><span>~</span> $ cat about.md</div> -->
+<div class="prompt"><span>~</span> $ cat about.md</div>
 
 <div class="hero">
   <div>

@@ -3,7 +3,7 @@ title: "cv"
 url: "/en/cv/"
 ---
 
-<!-- <div class="prompt"><span>~</span> $ cat cv.md</div> -->
+<div class="prompt"><span>~</span> $ cat cv.md</div>
 
 <div class="dl-btns">
   <a class="dl-btn" href="/cv-eng.pdf" download>↓ download CV</a>
