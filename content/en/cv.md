@@ -3,7 +3,7 @@ title: "cv"
 url: "/en/cv/"
 ---
 
-<div class="prompt"><span>~</span> $ cat cv.md</div>
+<!-- <div class="prompt"><span>~</span> $ cat cv.md</div> -->
 
 <div class="page-header">
   <div class="page-title">curriculum vitae</div>
