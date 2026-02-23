@@ -23,7 +23,7 @@ url: "/it/about/"
   </div>
 </div>
 
-<<section class="section">
+<section class="section">
   <div class="section-title">bio</div>
   <div class="body-text">
     <p>Sono un Data Scientist con una solida formazione in data analytics, informatica e metodi quantitativi. Ho conseguito la laurea in Informatica per il Management presso l'Università di Bologna e ho completato programmi avanzati in Data Science, Business Analytics e Finanza Quantitativa presso l'Università di Varsavia.</p>

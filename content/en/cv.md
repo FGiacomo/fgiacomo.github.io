@@ -14,62 +14,99 @@ url: "/en/cv/"
   <div class="section-title">experience</div>
 
   <div class="entry">
-    <div class="entry-title">Senior Backend Engineer</div>
-    <div class="entry-date">2022 — present</div>
-    <div class="entry-sub">Acme Corp · Milan</div>
-    <div class="entry-desc">Design and development of microservices in Go and Python. Reduced average latency by 40% through query optimization and distributed caching with Redis. Mentoring of junior developers.</div>
+    <div class="entry-title">Data Scientist</div>
+    <div class="entry-date">02/2026 — Present</div>
+    <div class="entry-sub">European Central Bank (ECB) · Frankfurt am Main, Germany</div>
+    <div class="entry-desc">Data Scientist Trainee within the Directorate General Statistics (DGS), part of the CASPAR team. Use Python and main data science and visualization libraries to provide meaningful insights. Apply DevOps and DevSecOps paradigms from development to deployment.</div>
   </div>
 
   <div class="entry">
-    <div class="entry-title">Backend Developer</div>
-    <div class="entry-date">2020 — 2022</div>
-    <div class="entry-sub">Startup XYZ · Remote</div>
-    <div class="entry-desc">REST and GraphQL API development on Node.js. Migration from monolithic to microservices on Kubernetes. Deploy time cut from 45 min to &lt;5 min with CI/CD on GitHub Actions.</div>
+    <div class="entry-title">IT Strategy Consultant</div>
+    <div class="entry-date">07/2025 — 01/2026</div>
+    <div class="entry-sub">KPMG Italy · Verona, Italy</div>
+    <div class="entry-desc">Member of the CIO Advisory team at Nolan, Norton Italia, supporting organizations in defining IT strategies, digital transformation programs, ICT investment optimization, and SOX compliance. Activities include technology and data strategy design, ICT planning, governance models, vendor management, cybersecurity, and compliance. Also involved in PMO activities for complex technology and organizational projects.</div>
   </div>
 
   <div class="entry">
-    <div class="entry-title">Junior Developer</div>
-    <div class="entry-date">2019 — 2020</div>
-    <div class="entry-sub">Web Agency ABC · Turin</div>
-    <div class="entry-desc">Full-stack development with Laravel and Vue.js for e-commerce clients. Payment integration with Stripe and PayPal.</div>
+    <div class="entry-title">Business Intelligence Analyst</div>
+    <div class="entry-date">01/2023 — 03/2023</div>
+    <div class="entry-sub">Aggity Italy · Bologna, Italy</div>
+    <div class="entry-desc">Creation of dashboards and reports in Power BI for manufacturing companies (Industry 4.0). Use of PowerQuery and SQL Server Management Studio (SSMS) for data mining on I4.0 manufacturing databases derived from OperaMES. Applied software engineering paradigms from development to final cloud deployment.</div>
   </div>
+
+  <div class="entry">
+    <div class="entry-title">SEO Specialist</div>
+    <div class="entry-date">06/2018 — 07/2018</div>
+    <div class="entry-sub">Gold Future Trends Ltd. · Vilnius, Lithuania</div>
+    <div class="entry-desc">Creation of multimedia and graphic content (flyers, business cards) using Adobe Suite (Illustrator, Photoshop, Premiere Pro). Management and optimization of WordPress CMS for manufacturing and service sector companies using Google SEO. Creation and management of advertising campaigns through Google Ads.</div>
+  </div>
+
+  <div class="entry">
+    <div class="entry-title">HPC User Support</div>
+    <div class="entry-date">03/2018 — 04/2018</div>
+    <div class="entry-sub">CINECA · Bologna, Italy</div>
+    <div class="entry-desc">Development of a scheduler in Python (using Slurm and Courses library) for active jobs on the Marconi HPC cluster. Learned task management logics on Unix HPC architecture (CentOS). Applied DevSecOps practices for development and deployment of the software product.</div>
+  </div>
+
 </section>
 
 <section class="section">
   <div class="section-title">education</div>
 
   <div class="entry">
-    <div class="entry-title">MSc in Computer Science</div>
-    <div class="entry-date">2017 — 2019</div>
-    <div class="entry-sub">Politecnico di Milano</div>
-    <div class="entry-desc">Thesis: "Optimizing data pipelines in cloud-native environments" — 110/110 with honours.</div>
+    <div class="entry-title">Master of Science (MS), Data Science and Business Analytics – Quantitative Finance</div>
+    <div class="entry-date">09/2024 — 07/2025</div>
+    <div class="entry-sub">Faculty of Economic Sciences (Wydział Nauk Ekonomicznych – WNE), University of Warsaw</div>
+    <div class="entry-desc">
+      Attended the Data Science and Business Analytics program (#1 in Data Analytics in Central & Eastern Europe – Eduniversal Best Masters Ranking 2024) 
+      and the Quantitative Finance program (ranked 2nd in Central & Eastern Europe in the Financial Markets category – Eduniversal Best Masters Ranking 2024). <br>
+      Courses included: Machine Learning, Time Series Analysis, Risk Analysis and Modeling, International Finance, Financial Econometrics, Asset Allocation and Investment Strategies, Applied Macroeconomics with Python and GAMS.
+    </div>
   </div>
 
   <div class="entry">
-    <div class="entry-title">BSc in Computer Science</div>
-    <div class="entry-date">2014 — 2017</div>
-    <div class="entry-sub">University of Turin</div>
-    <div class="entry-desc">Systems and networks track. Thesis on distributed consensus protocols.</div>
+    <div class="entry-title">Master of Science (MS), Economics and Data Analysis</div>
+    <div class="entry-date">10/2023 — 09/2025</div>
+    <div class="entry-sub">University of Verona</div>
+    <div class="entry-desc">
+      Thesis in Machine Learning applied to Financial Risk: “From Risk to Resilience: Intelligent Fraud Detection in Credit Management”.
+    </div>
   </div>
+
+  <div class="entry">
+    <div class="entry-title">Bachelor's Degree (BSc), Computer Science for Management</div>
+    <div class="entry-date">2019 — 2023</div>
+    <div class="entry-sub">Alma Mater Studiorum – University of Bologna</div>
+    <div class="entry-desc">
+      Thesis: "The Role of Business Intelligence in Italian SMEs".
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="entry-title">Secondary School Diploma in IT & Telecommunications</div>
+    <div class="entry-date">2014 — 2019</div>
+    <div class="entry-sub">IIS O. Belluzzi</div>
+    <div class="entry-desc">Grade: 86.</div>
+  </div>
+
 </section>
 
 <section class="section">
   <div class="section-title">skills</div>
   <div class="tags">
-    <span class="tag hl">Go</span>
     <span class="tag hl">Python</span>
-    <span class="tag hl">PostgreSQL</span>
-    <span class="tag">TypeScript</span>
-    <span class="tag">Node.js</span>
+    <span class="tag hl">SQL</span>
+    <span class="tag hl">Power BI</span>
+    <span class="tag">R</span>
+    <span class="tag">Financial Modeling</span>
+    <span class="tag">Risk Analysis</span>
+    <span class="tag">Time Series Analysis</span>
     <span class="tag">Docker</span>
     <span class="tag">Kubernetes</span>
-    <span class="tag">Redis</span>
-    <span class="tag">Kafka</span>
-    <span class="tag">Linux</span>
-    <span class="tag">Terraform</span>
     <span class="tag">Git</span>
-    <span class="tag">REST / gRPC</span>
-    <span class="tag">AWS</span>
+    <span class="tag">REST / API</span>
+    <span class="tag">DevOps / DevSecOps</span>
+    <span class="tag">Data Visualization</span>
   </div>
 </section>
 
@@ -77,8 +114,9 @@ url: "/en/cv/"
   <div class="section-title">languages</div>
   <table>
     <tr><th>Language</th><th>Level</th></tr>
-    <tr><td>Italian</td><td>native</td></tr>
+    <tr><td>Italian</td><td>Native</td></tr>
     <tr><td>English</td><td>C1</td></tr>
-    <tr><td>Spanish</td><td>B1</td></tr>
+    <tr><td>French</td><td>School level</td></tr>
+    <tr><td>Polish</td><td>A1 (UW Polonicum certificate)</td></tr>
   </table>
 </section>

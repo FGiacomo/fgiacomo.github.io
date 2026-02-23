@@ -3,7 +3,7 @@ title: "contacts"
 url: "/en/contacts/"
 ---
 
-<div class="prompt"><span>~</span> $ cat contacts.md</div>
+<!-- <div class="prompt"><span>~</span> $ cat contacts.md</div> -->
 
 <div class="page-header">
   <div class="page-title">contacts</div>
@@ -24,10 +24,10 @@ url: "/en/contacts/"
       <div class="cr-value">github.com/fgiacomo</div>
       <div class="cr-arrow">→</div>
     </a>
-    <a class="contact-row" href="https://linkedin.com/in/fgiacomo" target="_blank">
+    <a class="contact-row" href="https://www.linkedin.com/in/giacomo-fantato/?locale=en-US" target="_blank">
       <div class="cr-icon">◈</div>
       <div class="cr-key">linkedin</div>
-      <div class="cr-value">linkedin.com/in/fgiacomo</div>
+      <div class="cr-value">linkedin.com/in/giacomo-fantato</div>
       <div class="cr-arrow">→</div>
     </a>
   </div>
