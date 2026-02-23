@@ -6,7 +6,7 @@ url: "/en/cv/"
 <!-- <div class="prompt"><span>~</span> $ cat cv.md</div> -->
 
 <div class="page-header">
-  <div class="page-title">curriculum vitae</div>
+  <div class="page-title">curriculum vitae<span class="cursor"></span></div>
   <a class="dl-btn" href="/cv-eng.pdf" download>↓ Download PDF</a>
 </div>
 
