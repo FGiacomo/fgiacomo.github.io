@@ -17,7 +17,7 @@ emoji: "👤"
     <div class="hero-subtitle">// Data Scientist · Banca Centrale Europea</div>
     <div class="hero-meta">
       <span>📍 Frankfurt am Main, Germany</span>
-      <a href="mailto:tua@email.it">giacomofantato@outlook.it</a>
+      <a href="mailto:giacomofantato@outlook.com">giacomofantato@outlook.com</a>
       <a href="https://github.com/fgiacomo" target="_blank">github</a>
       <a href="https://www.linkedin.com/in/giacomo-fantato/?locale=it-IT" target="_blank">linkedin</a>
     </div>

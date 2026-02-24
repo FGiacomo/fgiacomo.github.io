@@ -13,10 +13,10 @@ emoji: "✉️"
 <section class="section">
   <div class="section-title">links</div>
   <div class="contact-list">
-    <a class="contact-row" href="mailto:giacomofantato@outlook.it">
+    <a class="contact-row" href="mailto:giacomofantato@outlook.com">
       <div class="cr-icon">✉</div>
       <div class="cr-key">email</div>
-      <div class="cr-value">giacomofantato@outlook.it</div>
+      <div class="cr-value">giacomofantato@outlook.com</div>
       <div class="cr-arrow">→</div>
     </a>
     <a class="contact-row" href="https://github.com/fgiacomo" target="_blank">
