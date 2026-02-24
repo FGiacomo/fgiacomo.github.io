@@ -26,7 +26,7 @@ url: "/en/about/"
 <section class="section">
   <div class="section-title">bio</div>
   <div class="body-text">
-    <p>I'm a Data Scientist with a strong background in data analytics, computer science, and quantitative methods. I hold a degree in Computer Science for Management from the University of Bologna and completed advanced programs in Data Science, Business Analytics, and Quantitative Finance at the University of Warsaw.</p>
+    <p>I'm a Data Scientist with a strong background in data analytics, computer science, and quantitative methods for finance. I hold a degree in Computer Science for Management from the University of Bologna and completed advanced programs in Data Science, Business Analytics, and Quantitative Finance at the University of Warsaw.</p>
     <p>Currently, I work as a Data Scientist Trainee at the European Central Bank, supporting statistical analyses and data-driven decision-making. I’m passionate about tackling new challenges and continuously growing my skills.</p>
     <p>Outside of work, I enjoy motorsport photography, which sharpens my precision, patience, and attention to detail.</p>
   </div>

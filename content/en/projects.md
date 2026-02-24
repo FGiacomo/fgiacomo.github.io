@@ -118,5 +118,3 @@ url: "/en/projects/"
   </div>
 
 </div>
-
-</div>
