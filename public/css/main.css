@@ -417,6 +417,14 @@ html[lang="en"] .project-card:hover {
 
 
 /* ── LIGHT THEME ── */
+
+html[data-theme="light"] .hero-name,
+html[data-theme="light"] .entry-title,
+html[data-theme="light"] .project-name,
+html[data-theme="light"] .page-title {
+  color: #1a1a1a;
+}
+
 html[data-theme="light"] {
   --bg:      #f0f0eb;
   --surface: #e4e4de;

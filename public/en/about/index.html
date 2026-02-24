@@ -2,10 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>%f0%9f%91%a4</text></svg>">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>👤 about me — Giacomo Fantato</title>
   <meta name="description" content="" />
+  <meta property="og:title" content="about me — Giacomo Fantato" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="https://fgiacomo.github.io/og-image.png" />
+  <meta property="og:url" content="https://fgiacomo.github.io/en/about/" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://fgiacomo.github.io/og-image.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet" />
@@ -15,13 +21,19 @@
   
   <link rel="alternate" hreflang="en" href="https://fgiacomo.github.io/en/" />
   
-  <meta property="og:title" content="about me — Giacomo Fantato" />
-  <meta property="og:description" content="" />
-  <meta property="og:image" content="https://fgiacomo.github.io/og-image.png" />
-  <meta property="og:url" content="https://fgiacomo.github.io/en/about/" />
-  <meta property="og:type" content="website" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:image" content="https://fgiacomo.github.io/og-image.png" />
+  <script>
+    (function() {
+      var saved = localStorage.getItem('theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', saved);
+
+      var emoji = "👤";
+      var svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">' + emoji + '</text></svg>';
+      var link = document.createElement('link');
+      link.rel = 'icon';
+      link.href = 'data:image/svg+xml,' + encodeURIComponent(svg);
+      document.head.appendChild(link);
+    })();
+  </script>
 </head>
 
 <script>
@@ -147,16 +159,16 @@
 </section>
 <section class="section">
   <h2 class="section-title">interests</h2>
-  <ul class="tags">
-    <li class="tag soft">data analytics</li>
-    <li class="tag soft">computer science</li>
-    <li class="tag soft">cybersecurity</li>
-    <li class="tag soft">quantitative finance</li>
-    <li class="tag soft">programming</li>
-    <li class="tag soft">photography</li>
-    <li class="tag soft">travel & culture</li>
-    <li class="tag soft">problem solving</li>
-  </ul>
+  <div class="tags">
+    <span class="tag soft">data analytics</span>
+    <span class="tag soft">computer science</span>
+    <span class="tag soft">cybersecurity</span>
+    <span class="tag soft">quantitative finance</span>
+    <span class="tag soft">programming</span>
+    <span class="tag soft">photography</span>
+    <span class="tag soft">travel & culture</span>
+    <span class="tag soft">problem solving</span>
+  </div>
 </section>
 
   <footer class="footer">

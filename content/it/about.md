@@ -32,16 +32,17 @@ emoji: "👤"
     <p>Al di fuori del lavoro, mi dedico alla fotografia motorsport, che affina precisione, pazienza e attenzione ai dettagli.</p>
   </div>
 </section>
+
 <section class="section">
-  <h2 class="section-title">interests</h2>
-  <ul class="tags">
-    <li class="tag soft">data analytics</li>
-    <li class="tag soft">computer science</li>
-    <li class="tag soft">cybersecurity</li>
-    <li class="tag soft">quantitative finance</li>
-    <li class="tag soft">programming</li>
-    <li class="tag soft">photography</li>
-    <li class="tag soft">travel & culture</li>
-    <li class="tag soft">problem solving</li>
-  </ul>
+  <h2 class="section-title">interessi</h2>
+  <div class="tags">
+    <span class="tag soft">data analytics</span>
+    <span class="tag soft">computer science</span>
+    <span class="tag soft">cybersecurity</span>
+    <span class="tag soft">quantitative finance</span>
+    <span class="tag soft">programming</span>
+    <span class="tag soft">photography</span>
+    <span class="tag soft">travel & culture</span>
+    <span class="tag soft">problem solving</span>
+  </div>
 </section>
