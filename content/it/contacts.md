@@ -1,12 +1,13 @@
 ---
 title: "contacts"
 url: "/it/contacts/"
+emoji: "✉️"
 ---
 
 <!-- <div class="prompt"><span>~</span> $ cat contacts.md</div> -->
 
 <div class="page-header">
-  <div class="page-title">contacts</div>
+  <div class="page-title">contacts<span class="cursor"></div>
 </div>
 
 <section class="section">

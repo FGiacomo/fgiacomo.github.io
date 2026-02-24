@@ -1,12 +1,13 @@
 ---
 title: "cv"
 url: "/it/cv/"
+emoji: "📄"
 ---
 
 <!-- <div class="prompt"><span>~</span> $ cat cv.md</div> -->
 
 <div class="page-header">
-  <div class="page-title">curriculum vitae</div>
+  <div class="page-title">curriculum vitae<span class="cursor"></div>
   <a class="dl-btn" href="/cv-it.pdf" download>↓ Scarica PDF</a>
 </div>
 

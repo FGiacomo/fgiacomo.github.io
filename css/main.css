@@ -360,6 +360,12 @@ input::placeholder, textarea::placeholder { color:var(--dim); }
   .navbar-inner { padding: 0 24px; }
 }
 
+/* tema arancione per inglese */
+html[lang="en"] {
+  --accent: #ff6600;
+  --accent-dim: #ff660066;
+}
+
 /* ── MOBILE ── */
 @media (max-width: 600px) {
   /* Mostra hamburger, nascondi nav desktop */
