@@ -12,12 +12,6 @@
   --max-w:   1000px;
 }
 
-.project-sub {
-  color: var(--accent);
-  font-size: 0.8rem;
-  margin-bottom: 0.5rem;
-}
-
 /* ── RESET ── */
 *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
 html { scroll-behavior: smooth; }
@@ -363,8 +357,32 @@ input::placeholder, textarea::placeholder { color:var(--dim); }
 /* tema arancione per inglese */
 html[lang="en"] {
   --accent: #ff6600;
-  --accent-dim: #ff660066;
+  --accent-dim: rgba(255,102,0,0.06);
 }
+
+html[lang="en"] .lang-btn.active {
+  background: rgba(255,102,0,0.06);
+}
+
+html[lang="en"] .tag:hover,
+html[lang="en"] .tag.hl {
+  border-color: #ff6600;
+  color: #ff6600;
+}
+
+html[lang="en"] .p-tag.done {
+  color: #ff6600;
+  border-color: rgba(255,102,0,0.35);
+}
+
+html[lang="en"] .entry:hover {
+  border-color: #ff6600;
+}
+
+html[lang="en"] .project-card:hover {
+  border-color: #ff6600;
+}
+
 
 /* ── MOBILE ── */
 @media (max-width: 600px) {
