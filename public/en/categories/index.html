@@ -25,7 +25,6 @@
     (function() {
       var saved = localStorage.getItem('theme') || 'dark';
       document.documentElement.setAttribute('data-theme', saved);
-
       var emoji = "💻";
       var svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">' + emoji + '</text></svg>';
       var link = document.createElement('link');
@@ -35,21 +34,6 @@
     })();
   </script>
 </head>
-
-<script>
-  (function() {
-    const saved = localStorage.getItem('theme') || 'dark';
-    document.documentElement.setAttribute('data-theme', saved);
-  })();
-
-  function toggleTheme() {
-    const current = document.documentElement.getAttribute('data-theme');
-    const next = current === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', next);
-    localStorage.setItem('theme', next);
-  }
-</script>
-
 <body><nav class="navbar">
   <div class="navbar-inner">
     <a class="nav-logo" href="/en/about/">Giacomo Fantato</a>
@@ -138,8 +122,15 @@
   </footer>
 
   </main>
-
   <script src="/js/lang.js"></script>
   <script src="/js/nav.js"></script>
+  <script>
+    function toggleTheme() {
+      const current = document.documentElement.getAttribute('data-theme');
+      const next = current === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    }
+  </script>
 </body>
 </html>
