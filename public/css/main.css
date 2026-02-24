@@ -418,14 +418,14 @@ html[lang="en"] .project-card:hover {
 
 /* ── LIGHT THEME ── */
 html[data-theme="light"] {
-  --bg:      #f5f5f0;
-  --surface: #ebebе6;
-  --border:  #d0d0c8;
-  --text:    #2a2a2a;
-  --dim:     #888880;
-  --accent:  #007744;
-  --accent2: #0055cc;
-  --warn:    #cc6600;
+  --bg:      #f0f0eb;
+  --surface: #e4e4de;
+  --border:  #c8c8c0;
+  --text:    #1a1a1a;
+  --dim:     #777770;
+  --accent:  #006633;
+  --accent2: #0044aa;
+  --warn:    #aa5500;
 }
 
 html[data-theme="light"] body {
@@ -433,39 +433,132 @@ html[data-theme="light"] body {
   color: var(--text);
 }
 
-html[data-theme="light"] .navbar {
-  background: rgba(245,245,240,0.96);
-}
-
-html[data-theme="light"] .mobile-nav {
-  background: rgba(245,245,240,0.98);
-}
-
-html[data-theme="light"] .tag:hover,
-html[data-theme="light"] .tag.hl {
-  background: rgba(0,119,68,0.08);
-}
-
-html[data-theme="light"] .lang-btn.active {
-  background: rgba(0,119,68,0.08);
-}
-
-html[data-theme="light"] .submit-btn:hover {
-  background: rgba(0,119,68,0.08);
-}
-
-html[data-theme="light"] .project-card:hover {
-  background: #e8e8e3;
-}
-
 html[data-theme="light"] body::before {
   display: none;
 }
 
-html[data-theme="light"][lang="en"] {
-  --accent: #cc4400;
+/* Navbar */
+html[data-theme="light"] .navbar {
+  background: rgba(240,240,235,0.96);
+}
+html[data-theme="light"] .mobile-nav {
+  background: rgba(240,240,235,0.98);
 }
 
+/* Testi bianchi hardcoded → testo scuro */
+html[data-theme="light"] .hero-name,
+html[data-theme="light"] .entry-title,
+html[data-theme="light"] .project-name,
+html[data-theme="light"] .page-title {
+  color: #1a1a1a;
+}
+
+html[data-theme="light"] .contact-row:hover .cr-value {
+  color: #1a1a1a;
+}
+
+/* Tags */
+html[data-theme="light"] .tag {
+  background: var(--surface);
+  color: var(--text);
+}
+html[data-theme="light"] .tag:hover,
+html[data-theme="light"] .tag.hl {
+  background: rgba(0,102,51,0.08);
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+/* Lang btn */
+html[data-theme="light"] .lang-btn.active {
+  background: rgba(0,102,51,0.08);
+}
+
+/* CV entries */
+html[data-theme="light"] .entry {
+  border-left-color: var(--border);
+}
+html[data-theme="light"] .entry:hover {
+  border-left-color: var(--accent);
+}
+
+/* Project cards */
+html[data-theme="light"] .project-card {
+  background: var(--surface);
+}
+html[data-theme="light"] .project-card:hover {
+  border-color: var(--accent);
+  background: #dcdcd6;
+}
+
+/* p-tags */
+html[data-theme="light"] .p-tag.lang {
+  color: var(--accent2);
+  border-color: rgba(0,68,170,0.35);
+}
+html[data-theme="light"] .p-tag.done {
+  color: var(--accent);
+  border-color: rgba(0,102,51,0.35);
+}
+html[data-theme="light"] .p-tag.wip {
+  color: var(--warn);
+  border-color: rgba(170,85,0,0.35);
+}
+
+/* Contact rows */
+html[data-theme="light"] .contact-row {
+  background: var(--surface);
+}
+html[data-theme="light"] .contact-row:hover {
+  border-color: var(--accent);
+}
+
+/* Form */
+html[data-theme="light"] input,
+html[data-theme="light"] textarea {
+  background: var(--surface);
+  color: var(--text);
+}
+html[data-theme="light"] .submit-btn {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+html[data-theme="light"] .submit-btn:hover {
+  background: rgba(0,102,51,0.08);
+}
+
+/* Table */
+html[data-theme="light"] th {
+  background: var(--surface);
+}
+html[data-theme="light"] tr:hover td {
+  background: #d8d8d2;
+}
+
+/* dl-btn */
+html[data-theme="light"] .dl-btn:hover {
+  background: rgba(0,102,51,0.08);
+}
+
+/* Footer */
+html[data-theme="light"] .footer {
+  border-top-color: var(--border);
+}
+
+/* Inglese chiaro → arancione scuro */
+html[data-theme="light"][lang="en"] {
+  --accent: #bb3300;
+}
+
+html[data-theme="light"][lang="en"] .tag:hover,
+html[data-theme="light"][lang="en"] .tag.hl {
+  background: rgba(187,51,0,0.08);
+}
+
+html[data-theme="light"][lang="en"] .p-tag.done {
+  color: #bb3300;
+  border-color: rgba(187,51,0,0.35);
+}
 /* Theme toggle button */
 .theme-btn {
   background: none;
