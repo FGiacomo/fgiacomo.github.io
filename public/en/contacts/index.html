@@ -16,10 +16,24 @@
   <link rel="alternate" hreflang="en" href="https://fgiacomo.github.io/en/" />
   
 </head>
+
+<script>
+  (function() {
+    const saved = localStorage.getItem('theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', saved);
+  })();
+
+  function toggleTheme() {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  }
+</script>
+
 <body><nav class="navbar">
   <div class="navbar-inner">
     <a class="nav-logo" href="/en/about/">Giacomo Fantato</a>
-
     
     <div class="nav-right">
       <ul class="nav-links">
@@ -53,22 +67,20 @@
         </li>
         
       </ul>
-
       <div class="lang-toggle">
         <button class="lang-btn "
                 onclick="switchLang('it')">IT</button>
         <button class="lang-btn active"
                 onclick="switchLang('en')">EN</button>
       </div>
+      <button class="theme-btn" id="theme-toggle" onclick="toggleTheme()" title="toggle theme">◐</button>
     </div>
-
     
     <button class="hamburger" id="hamburger" aria-label="Menu">
       <span></span><span></span><span></span>
     </button>
   </div>
 </nav>
-
 
 <div class="mobile-nav" id="mobile-nav">
   
@@ -97,9 +109,9 @@
             onclick="switchLang('it')">🇮🇹 IT</button>
     <button class="lang-btn active"
             onclick="switchLang('en')">🇬🇧 EN</button>
+    <button class="theme-btn" onclick="toggleTheme()" title="toggle theme">◐</button>
   </div>
-</div>
-<main class="page">
+</div><main class="page">
   <!-- <div class="prompt"><span>~</span> $ cat contacts.md</div> -->
 <div class="page-header">
   <div class="page-title">contacts<span class="cursor"></span></div>
@@ -107,10 +119,10 @@
 <section class="section">
   <div class="section-title">links</div>
   <div class="contact-list">
-    <a class="contact-row" href="mailto:giacomofantato@outlook.it">
+    <a class="contact-row" href="mailto:giacomofantato@outlook.com">
       <div class="cr-icon">✉</div>
       <div class="cr-key">email</div>
-      <div class="cr-value">giacomofantato@outlook.it</div>
+      <div class="cr-value">giacomofantato@outlook.com</div>
       <div class="cr-arrow">→</div>
     </a>
     <a class="contact-row" href="https://github.com/fgiacomo" target="_blank">

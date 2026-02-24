@@ -16,10 +16,24 @@
   <link rel="alternate" hreflang="en" href="https://fgiacomo.github.io/en/" />
   
 </head>
+
+<script>
+  (function() {
+    const saved = localStorage.getItem('theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', saved);
+  })();
+
+  function toggleTheme() {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  }
+</script>
+
 <body><nav class="navbar">
   <div class="navbar-inner">
     <a class="nav-logo" href="/it/about/">Giacomo Fantato</a>
-
     
     <div class="nav-right">
       <ul class="nav-links">
@@ -53,22 +67,20 @@
         </li>
         
       </ul>
-
       <div class="lang-toggle">
         <button class="lang-btn active"
                 onclick="switchLang('it')">IT</button>
         <button class="lang-btn "
                 onclick="switchLang('en')">EN</button>
       </div>
+      <button class="theme-btn" id="theme-toggle" onclick="toggleTheme()" title="toggle theme">◐</button>
     </div>
-
     
     <button class="hamburger" id="hamburger" aria-label="Menu">
       <span></span><span></span><span></span>
     </button>
   </div>
 </nav>
-
 
 <div class="mobile-nav" id="mobile-nav">
   
@@ -97,9 +109,9 @@
             onclick="switchLang('it')">🇮🇹 IT</button>
     <button class="lang-btn "
             onclick="switchLang('en')">🇬🇧 EN</button>
+    <button class="theme-btn" onclick="toggleTheme()" title="toggle theme">◐</button>
   </div>
-</div>
-<main class="page">
+</div><main class="page">
   <!-- <div class="prompt"><span>~</span> $ cat about.md</div> -->
 <div class="hero">
   <div>
@@ -112,7 +124,7 @@
     <div class="hero-subtitle">// Data Scientist · Banca Centrale Europea</div>
     <div class="hero-meta">
       <span>📍 Frankfurt am Main, Germany</span>
-      <a href="mailto:tua@email.it">giacomofantato@outlook.it</a>
+      <a href="mailto:giacomofantato@outlook.com">giacomofantato@outlook.com</a>
       <a href="https://github.com/fgiacomo" target="_blank">github</a>
       <a href="https://www.linkedin.com/in/giacomo-fantato/?locale=it-IT" target="_blank">linkedin</a>
     </div>
