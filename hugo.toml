@@ -27,7 +27,7 @@ enableRobotsTXT = true
     subtitle = "// Data Scientist"
 
   [[languages.it.menus.main]]
-    name = "about me"
+    name = "chi sono"
     url = "/it/about/"
     weight = 1
 
@@ -37,12 +37,12 @@ enableRobotsTXT = true
     weight = 2
 
   [[languages.it.menus.main]]
-    name = "projects"
+    name = "progetti"
     url = "/it/projects/"
     weight = 3
 
   [[languages.it.menus.main]]
-    name = "contacts"
+    name = "contatti"
     url = "/it/contacts/"
     weight = 4
 
