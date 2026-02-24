@@ -10,20 +10,20 @@ enableRobotsTXT = true
       unsafe = true
 
 [params]
-  author   = "Giacomo F."
+  author   = "Giacomo Fantato"
   email    = "tua@email.it"
   github   = "https://github.com/fgiacomo"
-  linkedin = "https://linkedin.com/in/fgiacomo"
+  linkedin = "https://linkedin.com/in/giacomo-fantato"
 
 # ── ITALIANO ───────────────────────────────────────────────────
 [languages.it]
   languageName = "IT"
   weight       = 1
   contentDir   = "content/it"
-  title        = "Giacomo F."
+  title        = "Giacomo Fantato"
 
   [languages.it.params]
-    subtitle = "// Software Engineer · Backend & Systems"
+    subtitle = "// Data Scientist"
 
   [[languages.it.menus.main]]
     name = "about me"
@@ -50,10 +50,10 @@ enableRobotsTXT = true
   languageName = "EN"
   weight       = 2
   contentDir   = "content/en"
-  title        = "Giacomo F."
+  title        = "Giacomo Fantato"
 
   [languages.en.params]
-    subtitle = "// Software Engineer · Backend & Systems"
+    subtitle = "// Data Scientist"
 
   [[languages.en.menus.main]]
     name = "about me"

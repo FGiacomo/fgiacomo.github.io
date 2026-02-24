@@ -35,7 +35,7 @@ url: "/it/contacts/"
 
 <section class="section">
   <div class="section-title">messaggio diretto</div>
-  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+  <form action="https://formspree.io/f/mbdapboz" method="POST">
     <div class="form-group">
       <label>nome <span class="req">*</span></label>
       <input type="text" name="name" placeholder="Il tuo nome" required />
@@ -49,6 +49,5 @@ url: "/it/contacts/"
       <textarea name="message" placeholder="Di cosa vuoi parlare?" required></textarea>
     </div>
     <button class="submit-btn" type="submit">send</button>
-    <p class="form-note">// form gestito da <a href="https://formspree.io" target="_blank">Formspree</a>. Sostituisci YOUR_FORM_ID con il tuo endpoint.</p>
   </form>
 </section>
