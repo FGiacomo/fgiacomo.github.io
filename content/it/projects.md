@@ -1,5 +1,5 @@
 ---
-title: "projects"
+title: "progetti"
 url: "/it/projects/"
 emoji: "🚀"
 ---

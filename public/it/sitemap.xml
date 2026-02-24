@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://fgiacomo.github.io/it/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://fgiacomo.github.io/en/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://fgiacomo.github.io/it/about/"
-                />
-  </url><url>
     <loc>https://fgiacomo.github.io/it/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -24,6 +12,18 @@
                 rel="alternate"
                 hreflang="it"
                 href="https://fgiacomo.github.io/it/categories/"
+                />
+  </url><url>
+    <loc>https://fgiacomo.github.io/it/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fgiacomo.github.io/en/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://fgiacomo.github.io/it/about/"
                 />
   </url><url>
     <loc>https://fgiacomo.github.io/it/contacts/</loc>

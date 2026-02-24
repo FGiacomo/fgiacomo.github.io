@@ -1,5 +1,5 @@
 ---
-title: "contacts"
+title: "contatti"
 url: "/it/contacts/"
 emoji: "✉️"
 ---
