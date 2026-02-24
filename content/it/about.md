@@ -1,5 +1,5 @@
 ---
-title: "chi_sono"
+title: "chi sono"
 url: "/it/about/"
 emoji: "👤"
 ---
