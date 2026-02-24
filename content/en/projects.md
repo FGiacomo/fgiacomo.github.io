@@ -81,6 +81,7 @@ url: "/en/projects/"
       <span class="p-tag">Scikit-learn</span>
       <span class="p-tag">Regression</span>
       <span class="p-tag">Classification</span>
+      <span class="p-tag done">Grade: 5!/5</span>
     </div>
   </div>
 
