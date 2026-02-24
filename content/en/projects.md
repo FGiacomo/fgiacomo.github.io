@@ -5,21 +5,17 @@ url: "/en/projects/"
 
 <!-- <div class="prompt"><span>~</span> $ ls -la projects/</div> -->
 
-<div class="page-header">
-  <div class="page-title">projects</div>
-</div>
+<section class="section">
+  <div class="section-title">projects</div>
 
-<div class="projects-grid">
-
-  <div class="project-card">
-    <div class="project-top">
-      <div class="project-name">Master’s Thesis - Machine Learning for Credit Card Fraud Detection</div>
-    </div>
-    <div class="project-sub">lug 2025 – set 2025 · Università degli Studi di Verona</div>
-    <div class="project-desc">
-      Under Basel III, banks must maintain the intraday liquidity ratio, which can be disrupted by credit card fraud. Fraudulent transactions create unexpected liquidity demands, threatening operational resilience and systemic stability. My thesis, defended on September 4th 2025, focused on designing and evaluating machine learning-based fraud detection systems. The project was developed in Python, combining financial risk analysis with advanced predictive modeling. 
+  <div class="entry">
+    <div class="entry-title">Master’s Thesis - Machine Learning for Credit Card Fraud Detection</div>
+    <div class="entry-date">lug 2025 – set 2025</div>
+    <div class="entry-sub">Università degli Studi di Verona</div>
+    <div class="entry-desc">
+      Under Basel III, banks must maintain the intraday liquidity ratio, which can be disrupted by credit card fraud. Fraudulent transactions create unexpected liquidity demands, threatening operational resilience and systemic stability. My thesis, defended on September 4th 2025, focused on designing and evaluating machine learning-based fraud detection systems. The project was developed in Python, combining financial risk analysis with advanced predictive modeling.
       <br><br>
-      What was built:
+      <strong>What was built:</strong>
       <ul>
         <li>Data preparation, feature engineering and modeling on real-world financial datasets</li>
         <li>Comparative assessment of classifiers: Decision Tree, Random Forest, XGBoost, LightGBM, CatBoost and TabNet</li>
@@ -28,25 +24,19 @@ url: "/en/projects/"
       </ul>
       The workflow was accelerated with GPU Data Science using NVIDIA RAPIDS on Google Cloud Platform with NVIDIA H100 GPUs. Training and inference times dropped dramatically, and data operations were up to 95% faster than CPU workflows. This enabled scalable, high-performance, real-time fraud monitoring.
       <br><br>
+      <a href="https://lnkd.in/dgkN9g5B" target="_blank">GitHub Repository</a> | <a href="https://bit.ly/RAPIDScolab" target="_blank">RAPIDS on GCP</a><br>
       Grade: 8/8
-    </div>
-    <div class="project-tags">
-      <span class="p-tag lang">Python</span>
-      <span class="p-tag">Machine Learning</span>
-      <span class="p-tag">Financial Risk</span>
-      <span class="p-tag done">Completed</span>
     </div>
   </div>
 
-  <div class="project-card">
-    <div class="project-top">
-      <div class="project-name">Financial Volatility Modeling and Forecasting with GARCH and DCC-GARCH</div>
-    </div>
-    <div class="project-sub">mag 2025 – giu 2025 · Uniwersytet Warszawski</div>
-    <div class="project-desc">
-      University of Warsaw – Faculty of Economic Sciences UW WNE. Developed a comprehensive volatility analysis of global equity markets (S&P 500, NASDAQ 100, DAX, Nikkei 225) using both univariate GARCH(1,1) and multivariate DCC-GARCH(1,1) models.
+  <div class="entry">
+    <div class="entry-title">Financial Volatility Modeling and Forecasting with GARCH and DCC-GARCH</div>
+    <div class="entry-date">mag 2025 – giu 2025</div>
+    <div class="entry-sub">Uniwersytet Warszawski</div>
+    <div class="entry-desc">
+      Developed a comprehensive volatility analysis of global equity markets (S&P 500, NASDAQ 100, DAX, Nikkei 225) using both univariate GARCH(1,1) and multivariate DCC-GARCH(1,1) models.
       <br><br>
-      Key components:
+      <strong>Key components:</strong>
       <ul>
         <li>Data preprocessing and exploratory time series analysis</li>
         <li>Stationarity and ARCH effects testing</li>
@@ -56,22 +46,16 @@ url: "/en/projects/"
         <li>Portfolio-level risk assessment using rolling window forecasts</li>
       </ul>
       Tools: R (rugarch, rmgarch), GitHub, Visual Studio Code<br>
+      <a href="https://github.com/FGiacomo/Volatility-Analysis-of-Financial-Indices-Using-the-DCC-GARCH-Model" target="_blank">GitHub Repository</a><br>
       Grade: 5!/5 (Equivalent to 30L in italian grade)
-    </div>
-    <div class="project-tags">
-      <span class="p-tag lang">R</span>
-      <span class="p-tag">GARCH</span>
-      <span class="p-tag">Financial Risk</span>
-      <span class="p-tag done">Completed</span>
     </div>
   </div>
 
-  <div class="project-card">
-    <div class="project-top">
-      <div class="project-name">Value-at-Risk Estimation using Multivariate GARCH-family Models</div>
-    </div>
-    <div class="project-sub">mag 2025 – giu 2025 · Uniwersytet Warszawski</div>
-    <div class="project-desc">
+  <div class="entry">
+    <div class="entry-title">Value-at-Risk Estimation using Multivariate GARCH-family Models</div>
+    <div class="entry-date">mag 2025 – giu 2025</div>
+    <div class="entry-sub">Uniwersytet Warszawski</div>
+    <div class="entry-desc">
       Final project developed as part of the Time Series Analysis course, in collaboration with Federico Mennella and Domenico Castaldo. The objective was to estimate the Value-at-Risk (VaR) of a diversified portfolio using two models from the GARCH family: GARCH and EGARCH, capturing key stylized facts of financial markets such as volatility clustering and asymmetry.
       <br><br>
       Portfolio Composition:
@@ -83,22 +67,16 @@ url: "/en/projects/"
         <li>Cryptocurrency: Ethereum</li>
       </ul>
       The project included the implementation of an automated pipeline for volatility modeling and risk estimation. Each asset’s best-fitting GARCH specification was selected based on the Akaike Information Criterion (AIC), the Ljung-Box test on residuals, and the LM-ARCH test on standardized residuals. The data were harmonized to follow the NYSE trading calendar and split into in-sample and out-of-sample periods to evaluate conditional volatility and rolling VaR forecasts.<br><br>
+      <a href="https://bit.ly/TSA-project" target="_blank">GitHub Repository</a><br>
       Grade: 30 in italian grade
-    </div>
-    <div class="project-tags">
-      <span class="p-tag lang">R</span>
-      <span class="p-tag">GARCH</span>
-      <span class="p-tag">Portfolio Risk</span>
-      <span class="p-tag done">Completed</span>
     </div>
   </div>
 
-  <div class="project-card">
-    <div class="project-top">
-      <div class="project-name">Machine Learning Project: Apartment Price Prediction & Insurance Claim Classification</div>
-    </div>
-    <div class="project-sub">apr 2025 – mag 2025 · Uniwersytet Warszawski</div>
-    <div class="project-desc">
+  <div class="entry">
+    <div class="entry-title">Machine Learning Project: Apartment Price Prediction & Insurance Claim Classification</div>
+    <div class="entry-date">apr 2025 – mag 2025</div>
+    <div class="entry-sub">Uniwersytet Warszawski</div>
+    <div class="entry-desc">
       This project applied a range of machine learning algorithms to two datasets, covering both regression and classification tasks. Completed as the final project for the Machine Learning course at the University of Warsaw.
       <br><br>
       Apartment price prediction: models trained to estimate property values based on structural, locational, and economic features. Dataset: 156,000 training records, 39,000 test records. Steps: exploratory analysis, feature engineering, encoding, scaling, comparison of multiple regression algorithms, cross-validation and hyperparameter tuning.
@@ -107,14 +85,8 @@ url: "/en/projects/"
       <br><br>
       Key outcomes: enhanced EDA, preprocessing, feature engineering skills, practical experience with regression and classification algorithms, cross-validation and hyperparameter tuning, delivery of robust predictive models.
       <br><br>
-      GitHub: <a href="https://github.com/FGiacomo/ML-project-1" target="_blank">https://github.com/FGiacomo/ML-project-1</a>
-    </div>
-    <div class="project-tags">
-      <span class="p-tag lang">Python</span>
-      <span class="p-tag">ML</span>
-      <span class="p-tag">Regression / Classification</span>
-      <span class="p-tag done">Completed</span>
+      <a href="https://github.com/FGiacomo/ML-project-1" target="_blank">GitHub Repository</a>
     </div>
   </div>
 
-</div>
+</section>
