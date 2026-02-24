@@ -1,6 +1,8 @@
 ---
 title: "cv"
 url: "/en/cv/"
+emoji: "📄"
+
 ---
 
 <!-- <div class="prompt"><span>~</span> $ cat cv.md</div> -->

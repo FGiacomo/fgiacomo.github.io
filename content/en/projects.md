@@ -1,12 +1,13 @@
 ---
 title: "projects"
 url: "/en/projects/"
+emoji: "🚀"
 ---
 
 <!-- <div class="prompt"><span>~</span> $ ls -la projects/</div> -->
 
 <div class="page-header">
-  <div class="page-title">projects</div>
+  <div class="page-title">projects<span class="cursor"></span></div>
 </div>
 
 <div class="projects-grid">

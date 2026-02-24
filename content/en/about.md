@@ -1,6 +1,7 @@
 ---
 title: "about me"
 url: "/en/about/"
+emoji: "👤"
 ---
 
 <!-- <div class="prompt"><span>~</span> $ cat about.md</div> -->
