@@ -580,3 +580,12 @@ html[data-theme="light"][lang="en"] .p-tag.done {
   font-family: var(--font);
 }
 .theme-btn:hover { color: var(--accent); border-color: var(--accent); }
+
+.form-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 8px;
+}

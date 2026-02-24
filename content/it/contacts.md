@@ -4,10 +4,8 @@ url: "/it/contacts/"
 emoji: "✉️"
 ---
 
-<!-- <div class="prompt"><span>~</span> $ cat contacts.md</div> -->
-
 <div class="page-header">
-  <div class="page-title">contacts<span class="cursor"></div>
+  <div class="page-title">contacts<span class="cursor"></span></div>
 </div>
 
 <section class="section">
@@ -36,7 +34,8 @@ emoji: "✉️"
 
 <section class="section">
   <div class="section-title">messaggio diretto</div>
-  <form action="https://formspree.io/f/mbdapboz" method="POST">
+  <div id="form-success" style="display:none; color:var(--accent); font-size:13px; margin-bottom:16px;">✓ messaggio inviato con successo!</div>
+  <form id="contact-form" action="https://formspree.io/f/mbdapboz" method="POST">
     <div class="form-group">
       <label>nome <span class="req">*</span></label>
       <input type="text" name="name" placeholder="Il tuo nome" required />
@@ -49,6 +48,24 @@ emoji: "✉️"
       <label>messaggio <span class="req">*</span></label>
       <textarea name="message" placeholder="Di cosa vuoi parlare?" required></textarea>
     </div>
-    <button class="submit-btn" type="submit">send</button>
+    <div class="form-footer">
+      <button class="submit-btn" type="submit">send</button>
+      <span class="form-note">// i campi con <span class="req">*</span> sono obbligatori</span>
+    </div>
   </form>
 </section>
+
+<script>
+  const form = document.getElementById('contact-form');
+  form.addEventListener('submit', function(e) {
+    const name = form.querySelector('[name="name"]').value.trim();
+    const email = form.querySelector('[name="email"]').value.trim();
+    const message = form.querySelector('[name="message"]').value.trim();
+
+    if (!name || !email || !message) {
+      e.preventDefault();
+      alert('// errore: compila tutti i campi obbligatori.');
+      return;
+    }
+  });
+</script>
