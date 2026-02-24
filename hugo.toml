@@ -10,6 +10,7 @@ enableRobotsTXT = true
       unsafe = true
 
 [params]
+  description = "Giacomo Fantato — Software Engineer & Data Scientist"
   author   = "Giacomo Fantato"
   email    = "tua@email.it"
   github   = "https://github.com/fgiacomo"
