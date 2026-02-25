@@ -37,6 +37,11 @@ enableRobotsTXT = true
     weight = 2
 
   [[languages.it.menus.main]]
+  name = "certificazioni"
+  url = "/it/certifications/"
+  weight = 4
+
+  [[languages.it.menus.main]]
     name = "progetti"
     url = "/it/projects/"
     weight = 3
@@ -67,6 +72,11 @@ enableRobotsTXT = true
     weight = 2
 
   [[languages.en.menus.main]]
+  name = "certifications"
+  url = "/en/certifications/"
+  weight = 4
+
+  [[languages.en.menus.main]]
     name = "projects"
     url = "/en/projects/"
     weight = 3
@@ -75,3 +85,4 @@ enableRobotsTXT = true
     name = "contacts"
     url = "/en/contacts/"
     weight = 4
+
