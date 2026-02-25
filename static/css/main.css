@@ -702,3 +702,11 @@ body {
 html[data-theme="light"] body {
   background-color: #f0f0eb;
 }
+
+html[data-theme="light"][lang="en"] .cert-btn:hover {
+  background: rgba(187,51,0,0.08);
+}
+
+html[data-theme="light"][lang="en"] .dl-btn:hover {
+  background: rgba(187,51,0,0.08);
+}
