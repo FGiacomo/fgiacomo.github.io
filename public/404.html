@@ -1,7 +1,12 @@
-{{ define "main" }}
-<script>
-  const lang = (navigator.language || navigator.userLanguage || "it")
-    .toLowerCase().startsWith("it") ? "it" : "en";
-  window.location.replace("/" + lang + "/404.html");
-</script>
-{{ end }}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script>
+    var lang = (navigator.language || navigator.userLanguage || "it")
+      .toLowerCase().startsWith("it") ? "it" : "en";
+    window.location.replace("/" + lang + "/404.html");
+  </script>
+</head>
+<body></body>
+</html>
