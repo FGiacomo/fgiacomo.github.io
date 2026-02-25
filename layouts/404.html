@@ -1,0 +1,7 @@
+{{ define "main" }}
+<script>
+  const lang = (navigator.language || navigator.userLanguage || "it")
+    .toLowerCase().startsWith("it") ? "it" : "en";
+  window.location.replace("/" + lang + "/404.html");
+</script>
+{{ end }}
