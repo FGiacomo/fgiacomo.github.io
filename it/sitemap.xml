@@ -26,6 +26,18 @@
                 href="https://fgiacomo.github.io/it/categories/"
                 />
   </url><url>
+    <loc>https://fgiacomo.github.io/it/certifications/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fgiacomo.github.io/en/certifications/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://fgiacomo.github.io/it/certifications/"
+                />
+  </url><url>
     <loc>https://fgiacomo.github.io/it/about/</loc>
     <xhtml:link
                 rel="alternate"
