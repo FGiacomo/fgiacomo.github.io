@@ -8,6 +8,7 @@
   <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}" />
   <meta property="og:description" content="{{ .Site.Params.description }}" />
   <meta property="og:image" content="https://fgiacomo.github.io/og-image.png" />
+  {{ block "head" . }}{{ end }}
   <meta property="og:url" content="{{ .Permalink }}" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
