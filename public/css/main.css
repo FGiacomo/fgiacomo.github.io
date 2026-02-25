@@ -599,7 +599,6 @@ html[data-theme="light"][lang="en"] .p-tag.done {
   margin-top: 8px;
 }
 
-
 /* ── CERTIFICATIONS ── */
 .certs-grid {
   display: grid;
@@ -613,7 +612,7 @@ html[data-theme="light"][lang="en"] .p-tag.done {
   padding: 18px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 6px;
   transition: border-color 0.2s, background 0.2s;
 }
 
@@ -630,7 +629,7 @@ html[data-theme="light"][lang="en"] .p-tag.done {
 }
 
 .cert-name {
-  color: #fff;
+  color: var(--accent);
   font-size: 13px;
   font-weight: 700;
   line-height: 1.4;
@@ -648,11 +647,11 @@ html[data-theme="light"][lang="en"] .p-tag.done {
   font-size: 11px;
   font-family: var(--font);
   border: 1px solid var(--border);
-  padding: 4px 12px;
+  padding: 6px 14px;
   transition: all 0.15s;
   text-decoration: none;
   align-self: flex-start;
-  margin-top: 4px;
+  margin-top: 8px;
 }
 
 .cert-btn:hover {
@@ -661,16 +660,20 @@ html[data-theme="light"][lang="en"] .p-tag.done {
   background: rgba(0,255,136,0.05);
 }
 
-/* Light theme */
 html[data-theme="light"] .cert-card:hover {
   background: #dcdcd6;
 }
 
-html[data-theme="light"] .cert-name {
-  color: #1a1a1a;
+html[lang="en"] .cert-btn:hover {
+  background: rgba(255,102,0,0.05);
 }
 
-/* Mobile */
+@media (max-width: 860px) {
+  .certs-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 600px) {
   .certs-grid {
     grid-template-columns: 1fr;
