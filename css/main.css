@@ -679,3 +679,8 @@ html[lang="en"] .cert-btn:hover {
     grid-template-columns: 1fr;
   }
 }
+
+/* iOS safe area */
+.navbar {
+  padding-top: env(safe-area-inset-top);
+}
