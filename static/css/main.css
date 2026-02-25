@@ -276,11 +276,24 @@ html[data-theme="light"] .mobile-nav {
 .page-title { font-size: 24px; font-weight: 700; color: #fff; }
 
 .dl-btn {
-  color: var(--dim); font-size: 11px;
-  font-family: var(--font); border: 1px solid var(--border);
-  padding: 6px 14px; transition: all 0.15s;
+  color: var(--accent);
+  font-size: 11px;
+  font-family: var(--font);
+  border: 1px solid var(--accent);
+  padding: 6px 14px;
+  transition: all 0.15s;
+  text-decoration: none;
 }
-.dl-btn:hover { color: var(--accent); border-color: var(--accent); background: rgba(0,255,136,0.05); }
+
+.dl-btn:hover {
+  background: rgba(0,255,136,0.05);
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+html[lang="en"] .dl-btn:hover {
+  background: rgba(255,102,0,0.05);
+}
 
 /* Table */
 table { width:100%; border-collapse:collapse; margin:1rem 0; font-size:13px; }
