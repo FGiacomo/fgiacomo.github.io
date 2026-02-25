@@ -681,6 +681,11 @@ html[lang="en"] .cert-btn:hover {
 }
 
 /* iOS safe area */
-.navbar {
+body {
   padding-top: env(safe-area-inset-top);
+  background-color: #0d0d0d;
+}
+
+html[data-theme="light"] body {
+  background-color: #f0f0eb;
 }
