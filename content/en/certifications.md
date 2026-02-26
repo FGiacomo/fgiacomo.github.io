@@ -7,7 +7,14 @@ emoji: "🏆"
 <div class="page-header">
   <div class="page-title">certifications<span class="cursor"></span></div>
 </div>
-
+<div class="cert-filter">
+  <button class="filter-btn active" onclick="filterCerts('all')">all</button>
+  <button class="filter-btn" onclick="filterCerts('amazon-web-services')">AWS</button>
+  <button class="filter-btn" onclick="filterCerts('ibm')">IBM</button>
+  <button class="filter-btn" onclick="filterCerts('board')">Board</button>
+  <button class="filter-btn" onclick="filterCerts('universita-degli-studi-di-verona')">UniVR</button>
+  <button class="filter-btn" onclick="filterCerts('cineca')">CINECA</button>
+</div>
 <div class="certs-grid">
 
   <div class="cert-card">
