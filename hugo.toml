@@ -1,7 +1,6 @@
 baseURL = "https://fgiacomo.github.io/"
 defaultContentLanguage = "it"
 defaultContentLanguageInSubdir = true
-
 enableRobotsTXT = true
 
 [markup]
@@ -11,10 +10,10 @@ enableRobotsTXT = true
 
 [params]
   description = "Giacomo Fantato — Software Engineer & Data Scientist"
-  author   = "Giacomo Fantato"
-  email    = "tua@email.it"
-  github   = "https://github.com/fgiacomo"
-  linkedin = "https://linkedin.com/in/giacomo-fantato"
+  author      = "Giacomo Fantato"
+  email       = "tua@email.it"
+  github      = "https://github.com/fgiacomo"
+  linkedin    = "https://linkedin.com/in/giacomo-fantato"
 
 # ── ITALIANO ───────────────────────────────────────────────────
 [languages.it]
@@ -27,29 +26,29 @@ enableRobotsTXT = true
     subtitle = "// Data Scientist"
 
   [[languages.it.menus.main]]
-    name = "chi sono"
-    url = "/it/about/"
+    name   = "chi sono"
+    url    = "/it/about/"
     weight = 1
 
   [[languages.it.menus.main]]
-    name = "cv"
-    url = "/it/cv/"
+    name   = "cv"
+    url    = "/it/cv/"
     weight = 2
 
   [[languages.it.menus.main]]
-  name = "certificazioni"
-  url = "/it/certifications/"
-  weight = 4
-
-  [[languages.it.menus.main]]
-    name = "progetti"
-    url = "/it/projects/"
+    name   = "progetti"
+    url    = "/it/projects/"
     weight = 3
 
   [[languages.it.menus.main]]
-    name = "contatti"
-    url = "/it/contacts/"
+    name   = "certificazioni"
+    url    = "/it/certifications/"
     weight = 4
+
+  [[languages.it.menus.main]]
+    name   = "contatti"
+    url    = "/it/contacts/"
+    weight = 5
 
 # ── ENGLISH ────────────────────────────────────────────────────
 [languages.en]
@@ -62,27 +61,26 @@ enableRobotsTXT = true
     subtitle = "// Data Scientist"
 
   [[languages.en.menus.main]]
-    name = "about me"
-    url = "/en/about/"
+    name   = "about me"
+    url    = "/en/about/"
     weight = 1
 
   [[languages.en.menus.main]]
-    name = "cv"
-    url = "/en/cv/"
+    name   = "cv"
+    url    = "/en/cv/"
     weight = 2
 
   [[languages.en.menus.main]]
-  name = "certifications"
-  url = "/en/certifications/"
-  weight = 4
-
-  [[languages.en.menus.main]]
-    name = "projects"
-    url = "/en/projects/"
+    name   = "projects"
+    url    = "/en/projects/"
     weight = 3
 
   [[languages.en.menus.main]]
-    name = "contacts"
-    url = "/en/contacts/"
+    name   = "certifications"
+    url    = "/en/certifications/"
     weight = 4
 
+  [[languages.en.menus.main]]
+    name   = "contacts"
+    url    = "/en/contacts/"
+    weight = 5
