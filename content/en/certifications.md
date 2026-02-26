@@ -4,6 +4,7 @@ url: "/en/certifications/"
 emoji: "🏆"
 ---
 
+<!--
 <div class="page-header">
   <div class="page-title">certifications<span class="cursor"></span></div>
   <div class="cert-filter">
@@ -15,6 +16,7 @@ emoji: "🏆"
     <button class="filter-btn" onclick="filterCerts('cineca')">CINECA</button>
   </div>
 </div>
+-->
 
   <div class="cert-card" data-issuer="amazon-web-services">
     <div class="cert-header">
