@@ -12,11 +12,11 @@ emoji: "👤"
          onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
     <div class="avatar-placeholder" style="display:none;"><span>👤</span>foto.jpg</div>
   </div>
-  <div class="hero-text">
+  <div>
     <div class="hero-name">Giacomo Fantato<span class="cursor"></span></div>
-    <div class="hero-subtitle">// Data Scientist · Banca Centrale Europea</div>
+    <div class="hero-subtitle">// Data Scientist · European Central Bank</div>
     <div class="hero-meta">
-      <span>📍 Francoforte sul Meno, Germania</span>
+      <span>📍 Frankfurt am Main, Germany</span>
       <a href="mailto:giacomofantato@outlook.com">giacomofantato@outlook.com</a>
       <a href="https://github.com/fgiacomo" target="_blank">github</a>
       <a href="https://www.linkedin.com/in/giacomo-fantato/?locale=it-IT" target="_blank">linkedin</a>
