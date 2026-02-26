@@ -17,7 +17,7 @@ emoji: "📄"
   <div class="entry">
     <div class="entry-title">Data Scientist</div>
     <div class="entry-date">02/2026 — Presente</div>
-    <div class="entry-sub">Banca Centrale Europea (ECB) · Francoforte sul Meno, Germania</div>
+    <div class="entry-sub">Banca Centrale Europea (BCE) · Francoforte sul Meno, Germania</div>
     <div class="entry-desc">Data Scientist Trainee all'interno della Direzione Generale Statistica (DGS), parte del team CASPAR. Uso di Python e principali librerie di data science e visualizzazione per fornire insight significativi. Applicazione dei paradigmi DevOps e DevSecOps dallo sviluppo al deployment.</div>
   </div>
 
