@@ -8,18 +8,20 @@ emoji: "👤"
 
 <div class="hero">
   <div>
-    <img class="avatar" src="/foto.jpg" alt="Giacomo Fantato" />
+    <img class="avatar" src="/io.JPG" alt="Giacomo F."
+         onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+    <div class="avatar-placeholder" style="display:none;"><span>👤</span>foto.jpg</div>
   </div>
-  <div class="hero-text">          <!-- ← aggiunto -->
+  <div class="hero-text">
     <div class="hero-name">Giacomo Fantato<span class="cursor"></span></div>
-    <div class="hero-subtitle">// Data Scientist · European Central Bank</div>
+    <div class="hero-subtitle">// Data Scientist · Banca Centrale Europea</div>
     <div class="hero-meta">
-      <span>📍 Frankfurt am Main, Germany</span>
+      <span>📍 Francoforte sul Meno, Germania</span>
       <a href="mailto:giacomofantato@outlook.com">giacomofantato@outlook.com</a>
       <a href="https://github.com/fgiacomo" target="_blank">github</a>
-      <a href="https://linkedin.com/in/giacomo-fantato" target="_blank">linkedin</a>
+      <a href="https://www.linkedin.com/in/giacomo-fantato/?locale=it-IT" target="_blank">linkedin</a>
     </div>
-  </div>                           <!-- ← chiuso -->
+  </div>
 </div>
 
 <section class="section">
