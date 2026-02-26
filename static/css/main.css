@@ -768,3 +768,8 @@ html[lang="en"] .filter-btn.active {
 html[lang="en"] .page-header .filter-btn.active {
   background: rgba(255,102,0,0.06);
 }
+
+
+.page-header:has(.cert-filter) {
+  align-items: center;
+}
