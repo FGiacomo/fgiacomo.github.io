@@ -740,3 +740,31 @@ html[data-theme="light"][lang="en"] .dl-btn:hover {
 html[lang="en"] .filter-btn.active {
   background: rgba(255,102,0,0.06);
 }
+
+
+.page-header .filter-btn {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--dim);
+  font-family: var(--font);
+  font-size: 11px;
+  padding: 4px 12px;
+  cursor: pointer;
+  transition: all 0.15s;
+  line-height: normal;
+}
+
+.page-header .filter-btn:hover {
+  color: var(--text);
+  border-color: var(--dim);
+}
+
+.page-header .filter-btn.active {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: rgba(0,255,136,0.06);
+}
+
+html[lang="en"] .page-header .filter-btn.active {
+  background: rgba(255,102,0,0.06);
+}
