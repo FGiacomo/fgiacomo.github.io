@@ -16,8 +16,8 @@ emoji: "🚀"
     <div class="project-top">
       <div class="project-name">Master's Thesis — ML for Credit Card Fraud Detection</div>
       <div class="project-links">
-        <a class="project-link" href="https://lnkd.in/dgkN9g5B" target="_blank">↗ github</a>
-        <a class="project-link demo" href="https://bit.ly/RAPIDScolab" target="_blank">↗ RAPIDS on GCP</a>
+        <a class="project-link" href="https://github.com/FGiacomo/Master-Thesis---Giacomo-Fantato" target="_blank">↗ github</a>
+        <a class="project-link demo" href="(https://colab.research.google.com/drive/1x_9oJqAGlrw_TeVI5XfRUzjcqTdjFglc?usp=sharing" target="_blank">↗ RAPIDS on GCP</a>
       </div>
     </div>
     <div class="project-sub">Università degli Studi di Verona · lug 2025 – set 2025</div>
@@ -54,7 +54,7 @@ emoji: "🚀"
     <div class="project-top">
       <div class="project-name">Value-at-Risk Estimation using Multivariate GARCH-family Models</div>
       <div class="project-links">
-        <a class="project-link" href="https://bit.ly/TSA-project" target="_blank">↗ github</a>
+        <a class="project-link" href="https://github.com/FGiacomo/TSA-Project" target="_blank">↗ github</a>
       </div>
     </div>
     <div class="project-sub">Uniwersytet Warszawski · mag 2025 – giu 2025</div>
