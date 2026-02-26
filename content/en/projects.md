@@ -17,7 +17,7 @@ emoji: "🚀"
       <div class="project-name">Master's Thesis — ML for Credit Card Fraud Detection</div>
       <div class="project-links">
         <a class="project-link" href="https://github.com/FGiacomo/Master-Thesis---Giacomo-Fantato" target="_blank">↗ github</a>
-        <a class="project-link demo" href="(https://colab.research.google.com/drive/1x_9oJqAGlrw_TeVI5XfRUzjcqTdjFglc?usp=sharing" target="_blank">↗ RAPIDS on GCP</a>
+        <a class="project-link demo" href="https://colab.research.google.com/drive/1x_9oJqAGlrw_TeVI5XfRUzjcqTdjFglc?usp=sharing" target="_blank">↗ RAPIDS on GCP</a>
       </div>
     </div>
     <div class="project-sub">Università degli Studi di Verona · lug 2025 – set 2025</div>
