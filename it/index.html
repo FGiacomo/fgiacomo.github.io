@@ -1,14 +1,165 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
+<script defer src="https://cloud.umami.is/script.js" data-website-id="52c0b4c8-11e7-4ed0-89e4-3b1106b0cf06"></script>
 <head>
-  <meta charset="UTF-8">
-  <script>
-    window.location.replace("/it/about/");
-  </script>
-  <noscript>
-    <meta http-equiv="refresh" content="0; url=/it/about/" />
-  </noscript>
-</head>
-<body></body>
-</html>
+	<meta name="generator" content="Hugo 0.156.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0d0d0d" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#f0f0eb" media="(prefers-color-scheme: light)" />
+  <title>Giacomo Fantato</title>
+  <meta name="description" content="Giacomo Fantato — Software Engineer &amp; Data Scientist" />
+  <meta property="og:title" content="Giacomo Fantato" />
+  <meta property="og:description" content="Giacomo Fantato — Software Engineer &amp; Data Scientist" />
+  <meta property="og:image" content="https://fgiacomo.github.io/og-image.png" />
+  
+<meta property="og:title" content="Giacomo Fantato" />
+<meta property="og:description" content="Giacomo Fantato — Software Engineer & Data Scientist" />
+<meta property="og:image" content="https://fgiacomo.github.io/og-image.png" />
+<meta property="og:url" content="https://fgiacomo.github.io" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://fgiacomo.github.io/og-image.png" />
 
+  <meta property="og:url" content="https://fgiacomo.github.io/it/" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://fgiacomo.github.io/og-image.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/main.css" />
+  
+  <link rel="alternate" hreflang="it" href="https://fgiacomo.github.io/it/" />
+  
+  <link rel="alternate" hreflang="en" href="https://fgiacomo.github.io/en/" />
+  
+  <script>
+    (function() {
+      var saved = localStorage.getItem('theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', saved);
+      var emoji = "💻";
+      var svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">' + emoji + '</text></svg>';
+      var link = document.createElement('link');
+      link.rel = 'icon';
+      link.href = 'data:image/svg+xml,' + encodeURIComponent(svg);
+      document.head.appendChild(link);
+    })();
+  </script>
+</head>
+<body><nav class="navbar">
+  <div class="navbar-inner">
+    <a class="nav-logo" href="/it/about/">Giacomo Fantato</a>
+    
+    <div class="nav-right">
+      <ul class="nav-links">
+        
+        <li>
+          <a href="/it/about/"
+            >
+            chi sono
+          </a>
+        </li>
+        
+        <li>
+          <a href="/it/cv/"
+            >
+            cv
+          </a>
+        </li>
+        
+        <li>
+          <a href="/it/projects/"
+            >
+            progetti
+          </a>
+        </li>
+        
+        <li>
+          <a href="/it/certifications/"
+            >
+            certificazioni
+          </a>
+        </li>
+        
+        <li>
+          <a href="/it/contacts/"
+            >
+            contatti
+          </a>
+        </li>
+        
+      </ul>
+      <div class="lang-toggle">
+        <button class="lang-btn active"
+                onclick="switchLang('it')">IT</button>
+        <button class="lang-btn "
+                onclick="switchLang('en')">EN</button>
+      </div>
+      <button class="theme-btn" id="theme-toggle" onclick="toggleTheme()" title="toggle theme">◐</button>
+    </div>
+    
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-nav" id="mobile-nav">
+  
+  <a href="/it/about/"
+     >
+     chi sono
+  </a>
+  
+  <a href="/it/cv/"
+     >
+     cv
+  </a>
+  
+  <a href="/it/projects/"
+     >
+     progetti
+  </a>
+  
+  <a href="/it/certifications/"
+     >
+     certificazioni
+  </a>
+  
+  <a href="/it/contacts/"
+     >
+     contatti
+  </a>
+  
+  <div class="lang-row">
+    <button class="lang-btn active"
+            onclick="switchLang('it')">🇮🇹 IT</button>
+    <button class="lang-btn "
+            onclick="switchLang('en')">🇬🇧 EN</button>
+    <button class="theme-btn" onclick="toggleTheme()" title="toggle theme">◐</button>
+  </div>
+</div><main class="page">
+<script>
+  const lang = (navigator.language || navigator.userLanguage || "it")
+    .toLowerCase()
+    .startsWith("it") ? "it" : "en";
+  window.location.replace("/" + lang + "/about/");
+</script>
+<noscript>
+  <meta http-equiv="refresh" content="0; url=/it/about/" />
+</noscript>
+
+  </main>
+  <script src="/js/lang.js"></script>
+  <script src="/js/nav.js"></script>
+  <script>
+    function toggleTheme() {
+      const current = document.documentElement.getAttribute('data-theme');
+      const next = current === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    }
+  </script>
+</body>
+</html>

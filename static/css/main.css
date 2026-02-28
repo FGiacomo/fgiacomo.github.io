@@ -743,3 +743,14 @@ html[lang="en"] .page-header .filter-btn.active {
 .page-header:has(.cert-filter) {
   align-items: center;
 }
+
+
+.project-sub {
+  color: var(--accent2);
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+html[lang="en"] .project-sub {
+  color: var(--accent2);
+}
