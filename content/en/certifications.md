@@ -163,19 +163,3 @@ emoji: "🏆"
   </div>
 
 </div>
-
-<script>
-function filterCerts(issuer) {
-  document.querySelectorAll('.cert-card').forEach(card => {
-    if (issuer === 'all' || card.dataset.issuer === issuer) {
-      card.style.display = 'flex';
-    } else {
-      card.style.display = 'none';
-    }
-  });
-  document.querySelectorAll('.filter-btn').forEach(btn => {
-    btn.classList.remove('active');
-  });
-  event.target.classList.add('active');
-}
-</script>
