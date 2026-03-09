@@ -23,7 +23,6 @@ body {
   font-size: 14px;
   line-height: 1.75;
   min-height: 100vh;
-  padding-top: env(safe-area-inset-top);
   background-color: #0d0d0d;
 }
 
@@ -58,6 +57,7 @@ a:hover { color: var(--accent); }
   background: rgba(13,13,13,0.96);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border);
+  padding-top: env(safe-area-inset-top);
 }
 .navbar-inner {
   max-width: var(--max-w);
