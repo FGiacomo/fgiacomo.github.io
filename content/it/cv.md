@@ -8,7 +8,7 @@ emoji: "📄"
 
 <div class="page-header">
   <div class="page-title">curriculum vitae<span class="cursor"></div>
-  <a class="dl-btn" href="/cv-it.pdf" download>↓ Scarica PDF</a>
+  <a class="dl-btn" href="/CV_ATS_IT.pdf" download>↓ Scarica PDF</a>
 </div>
 
 <section class="section">
