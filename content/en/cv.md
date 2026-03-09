@@ -20,7 +20,7 @@ emoji: "📄"
     <div class="entry-date">02/2026 — Present</div>
     <div class="entry-sub">European Central Bank (ECB) · Frankfurt am Main, Germany</div>
     <div class="entry-desc">Trainee in Statistics and Data Science at the European Central Bank (ECB), within the Directorate General Statistics (DGS). I am part of the Statistical Applications & Tools (SAT) division, working in the Statistical Tools Team (STT). 
-My work focuses on maintaining, testing and improving the API pipeline supporting CASPER (CentrAlised Submissions PlatfoRm), the ECB platform used for data submissions and validation processes. I also develop Retrieval-Augmented Generation (RAG) algorithms and generative AI models to support the CASPER project, contributing to the automation of documentation access and validation workflows.</div>
+    My work focuses on maintaining, testing and improving the API pipeline supporting CASPER (CentrAlised Submissions PlatfoRm), the ECB platform used for data submissions and validation processes. I also develop Retrieval-Augmented Generation (RAG) algorithms and generative AI models to support the CASPER project, contributing to the automation of documentation access and validation workflows.</div>
   </div>
 
   <div class="entry">
