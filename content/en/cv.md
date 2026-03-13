@@ -89,7 +89,7 @@ emoji: "📄"
     <div class="entry-title">Secondary School Diploma in IT & Telecommunications</div>
     <div class="entry-date">2014 — 2019</div>
     <div class="entry-sub">IIS O. Belluzzi</div>
-    <div class="entry-desc">Grade: 86.</div>
+    <div class="entry-desc">Technical expert in Computer Science and Telecommunications, with a specific focus on: front-end web development (HTML, CSS, JS), back-end development (OOP with Java, Nginx, Node.js, SQL & ER databases), Telecommunications, and Computer Systems.</div>
   </div>
 
 </section>
