@@ -87,7 +87,7 @@ emoji: "📄"
     <div class="entry-title">Diploma di Istruzione Secondaria in IT & Telecomunicazioni</div>
     <div class="entry-date">2014 — 2019</div>
     <div class="entry-sub">IIS O. Belluzzi</div>
-    <div class="entry-desc">Voto: 86</div>
+    <div class="entry-desc">Perito tecnico in Informatica e Telecomunicazioni, con focus specifico su Informatica: front-end web (HTML, CSS, JS), back-end (linguaggio OOP: Java, Nginx, Node.js, database SQL ed ER), Telecomunicazioni e Sistemi Informatici.</div>
   </div>
 
 </section>
