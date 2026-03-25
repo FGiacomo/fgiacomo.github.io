@@ -14,7 +14,7 @@ emoji: "👤"
   </div>
   <div>
     <div class="hero-name">Giacomo Fantato<span class="cursor"></span></div>
-    <div class="hero-subtitle">// Data Scientist · European Central Bank</div>
+    <div class="hero-subtitle">// Data Scientist & AI Engineer · European Central Bank</div>
     <div class="hero-meta">
       <span>📍 Frankfurt am Main, Germany</span>
       <a href="mailto:giacomofantato@outlook.com">giacomofantato@outlook.com</a>
