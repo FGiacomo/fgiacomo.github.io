@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <script>
-    var lang = (navigator.language || navigator.userLanguage || "it")
-      .toLowerCase().startsWith("it") ? "it" : "en";
-    window.location.replace("/" + lang + "/404.html");
+    var saved = localStorage.getItem('preferred-lang');
+    var browser = (navigator.language || 'it').toLowerCase().startsWith('it') ? 'it' : 'en';
+    var lang = saved || browser;
+    window.location.replace('/' + lang + '/404.html');
   </script>
 </head>
 <body></body>
