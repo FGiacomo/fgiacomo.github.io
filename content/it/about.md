@@ -27,9 +27,21 @@ emoji: "👤"
 <section class="section">
   <div class="section-title">bio</div>
   <div class="body-text">
-    <p>Sono un Data Scientist con una solida formazione in data analytics, informatica e metodi quantitativi per la finanza. Ho conseguito la laurea in Informatica per il Management presso l'Università di Bologna e ho completato programmi avanzati in Data Science, Business Analytics e Finanza Quantitativa presso l'Università di Varsavia.</p>
-    <p>Attualmente lavoro come Data Scientist Trainee presso la Banca Centrale Europea, supportando analisi statistiche e processi decisionali basati sui dati. Sono appassionato di affrontare nuove sfide e di sviluppare costantemente le mie competenze.</p>
-    <p>Al di fuori del lavoro, mi dedico alla fotografia motorsport, che affina precisione, pazienza e attenzione ai dettagli.</p>
+   <p>
+Sono un Data Scientist e AI Engineer con una solida formazione in data analytics, informatica e metodi quantitativi per la finanza. Ho conseguito una laurea triennale in Informatica per il Management presso l’Università di Bologna e una laurea magistrale in Economics and Data Analysis presso l’Università di Verona. Durante il secondo anno della magistrale, ho studiato presso l’Università di Varsavia, arricchendo il mio percorso con un’esperienza internazionale.
+</p>
+
+<p>
+Attualmente lavoro come Data Scientist Trainee presso la Banca Centrale Europea, supportando analisi statistiche e processi decisionali basati sui dati. Inoltre, opero come AI Engineer, sviluppando agenti basati su architetture RAG e applicazioni di agentic AI per la validazione dei dati all’interno della data submission platform della BCE (CASPER).
+</p>
+
+<p>
+Cerco costantemente nuove sfide e opportunità per sviluppare le mie competenze, in particolare nell’ambito dell’intelligenza artificiale e dello sviluppo di soluzioni data-driven.
+</p>
+
+<p>
+Al di fuori del lavoro, mi dedico alla fotografia motorsport, che affina precisione, pazienza e attenzione ai dettagli.
+</p>
   </div>
 </section>
 
