@@ -27,9 +27,21 @@ emoji: "👤"
 <section class="section">
   <div class="section-title">bio</div>
   <div class="body-text">
-    <p>I'm a Data Scientist with a strong background in data analytics, computer science, and quantitative methods for finance. I hold a degree in Computer Science for Management from the University of Bologna and completed advanced programs in Data Science, Business Analytics, and Quantitative Finance at the University of Warsaw.</p>
-    <p>Currently, I work as a Data Scientist Trainee at the European Central Bank, supporting statistical analyses and data-driven decision-making. I’m passionate about tackling new challenges and continuously growing my skills.</p>
-    <p>Outside of work, I enjoy motorsport photography, which sharpens my precision, patience, and attention to detail.</p>
+    <p>
+I am a Data Scientist and AI Engineer with a strong background in data analytics, computer science, and quantitative methods for finance. I hold a Bachelor’s degree in Computer Science for Management from the University of Bologna and a Master’s degree in Economics and Data Analysis from the University of Verona. During the second year of my Master’s, I studied at the University of Warsaw, enriching my academic journey with an international experience.
+</p>
+
+<p>
+Currently, I work as a Data Scientist Trainee at the European Central Bank, supporting statistical analyses and data-driven decision-making processes. In addition, I work as an AI Engineer, developing RAG-based agents and leveraging agentic AI for data validation within the ECB’s data submission platform (CASPER).
+</p>
+
+<p>
+I am constantly seeking new challenges and opportunities to further develop my skills, particularly in the field of artificial intelligence and the development of data-driven solutions.
+</p>
+
+<p>
+Outside of work, I am passionate about motorsport photography, which helps me refine precision, patience, and attention to detail.
+</p>
   </div>
 </section>
 
