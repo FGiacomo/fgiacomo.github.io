@@ -18,13 +18,12 @@ html { scroll-behavior: smooth; }
 
 body {
   background: var(--bg);
+  background-color: #0d0d0d;
   color: var(--text);
   font-family: var(--font);
   font-size: 14px;
   line-height: 1.75;
   min-height: 100vh;
-  padding-top: env(safe-area-inset-top);
-  background-color: #0d0d0d;
 }
 
 /* Scanlines */
@@ -54,10 +53,13 @@ a:hover { color: var(--accent); }
 
 /* ── NAVBAR ── */
 .navbar {
-  position: sticky; top: 0; z-index: 100;
+  position: sticky;
+  top: 0;
+  z-index: 100;
   background: rgba(13,13,13,0.96);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border);
+  padding-top: env(safe-area-inset-top);
 }
 .navbar-inner {
   max-width: var(--max-w);
@@ -123,6 +125,20 @@ a:hover { color: var(--accent); }
 }
 .lang-btn:hover { color: var(--text); border-color: var(--border); }
 .lang-btn.active { color: var(--accent); border-color: var(--accent); background: rgba(0,255,136,0.06); }
+
+/* Theme toggle button */
+.theme-btn {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--dim);
+  font-size: 14px;
+  padding: 3px 9px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: all 0.15s;
+  font-family: var(--font);
+}
+.theme-btn:hover { color: var(--accent); border-color: var(--accent); }
 
 /* Hamburger */
 .hamburger {
@@ -288,9 +304,7 @@ a:hover { color: var(--accent); }
   color: var(--accent);
   border-color: var(--accent);
 }
-html[lang="en"] .dl-btn:hover {
-  background: rgba(255,102,0,0.05);
-}
+html[lang="en"] .dl-btn:hover { background: rgba(255,102,0,0.05); }
 
 /* Table */
 table { width:100%; border-collapse:collapse; margin:1rem 0; font-size:13px; }
@@ -307,11 +321,7 @@ tr:hover td { background:#0f0f0f; }
 .project-card:hover { border-color: var(--accent); background: #131313; }
 .project-top { display:flex; justify-content:space-between; align-items:flex-start; gap:12px; margin-bottom:8px; }
 .project-name { font-weight:700; color:#fff; font-size:16px; }
-.project-sub {
-  color: var(--accent2);
-  font-size: 12px;
-  margin-bottom: 6px;
-}
+.project-sub { color: var(--accent2); font-size: 12px; margin-bottom: 6px; }
 .project-links { display:flex; gap:6px; flex-shrink:0; }
 .project-link {
   color:var(--dim); font-size:11px; font-family:var(--font);
@@ -370,6 +380,21 @@ input::placeholder, textarea::placeholder { color:var(--dim); }
   gap: 12px;
   margin-top: 8px;
 }
+.checkbox-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 11px;
+  color: var(--dim);
+  line-height: 1.6;
+}
+.checkbox-label input[type="checkbox"] {
+  width: auto;
+  margin-top: 3px;
+  flex-shrink: 0;
+  accent-color: var(--accent);
+}
 
 /* ── FOOTER ── */
 .footer {
@@ -394,27 +419,10 @@ input::placeholder, textarea::placeholder { color:var(--dim); }
   gap: 6px;
   transition: border-color 0.2s, background 0.2s;
 }
-.cert-card:hover {
-  border-color: var(--accent);
-  background: #131313;
-}
-.cert-issuer {
-  color: var(--accent2);
-  font-size: 10px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-.cert-name {
-  color: var(--accent);
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 1.4;
-  flex: 1;
-}
-.cert-date {
-  color: var(--dim);
-  font-size: 11px;
-}
+.cert-card:hover { border-color: var(--accent); background: #131313; }
+.cert-issuer { color: var(--accent2); font-size: 10px; letter-spacing: 1px; text-transform: uppercase; }
+.cert-name { color: var(--accent); font-size: 13px; font-weight: 700; line-height: 1.4; flex: 1; }
+.cert-date { color: var(--dim); font-size: 11px; }
 .cert-btn {
   display: inline-block;
   color: var(--dim);
@@ -427,19 +435,10 @@ input::placeholder, textarea::placeholder { color:var(--dim); }
   align-self: flex-start;
   margin-top: 8px;
 }
-.cert-btn:hover {
-  color: var(--accent);
-  border-color: var(--accent);
-  background: rgba(0,255,136,0.05);
-}
+.cert-btn:hover { color: var(--accent); border-color: var(--accent); background: rgba(0,255,136,0.05); }
 
 /* ── CERT FILTER ── */
-.cert-filter {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  align-items: center;
-}
+.cert-filter { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
 .filter-btn {
   background: none;
   border: 1px solid var(--border);
@@ -451,48 +450,13 @@ input::placeholder, textarea::placeholder { color:var(--dim); }
   transition: all 0.15s;
   line-height: normal;
 }
-.filter-btn:hover {
-  color: var(--text);
-  border-color: var(--dim);
-}
-.filter-btn.active {
-  color: var(--accent);
-  border-color: var(--accent);
-  background: rgba(0,255,136,0.06);
-}
-
-/* Theme toggle button */
-.theme-btn {
-  background: none;
-  border: 1px solid var(--border);
-  color: var(--dim);
-  font-size: 14px;
-  padding: 3px 9px;
-  cursor: pointer;
-  margin-left: 8px;
-  transition: all 0.15s;
-  font-family: var(--font);
-}
-.theme-btn:hover { color: var(--accent); border-color: var(--accent); }
+.filter-btn:hover { color: var(--text); border-color: var(--dim); }
+.filter-btn.active { color: var(--accent); border-color: var(--accent); background: rgba(0,255,136,0.06); }
 
 /* Quote box (404) */
-.quote-box {
-  border-left: 2px solid var(--accent);
-  padding: 20px 24px;
-  margin-bottom: 32px;
-  background: var(--surface);
-}
-.quote-text {
-  color: var(--text);
-  font-size: 15px;
-  line-height: 1.8;
-  margin-bottom: 10px;
-  font-style: italic;
-}
-.quote-author {
-  color: var(--accent);
-  font-size: 12px;
-}
+.quote-box { border-left: 2px solid var(--accent); padding: 20px 24px; margin-bottom: 32px; background: var(--surface); }
+.quote-text { color: var(--text); font-size: 15px; line-height: 1.8; margin-bottom: 10px; font-style: italic; }
+.quote-author { color: var(--accent); font-size: 12px; }
 
 /* ── TABLET ── */
 @media (max-width: 860px) {
@@ -503,13 +467,9 @@ input::placeholder, textarea::placeholder { color:var(--dim); }
 }
 
 /* ── TEMA ARANCIONE INGLESE ── */
-html[lang="en"] {
-  --accent: #ff6600;
-  --accent-dim: rgba(255,102,0,0.06);
-}
+html[lang="en"] { --accent: #ff6600; --accent-dim: rgba(255,102,0,0.06); }
 html[lang="en"] .lang-btn.active { background: rgba(255,102,0,0.06); }
-html[lang="en"] .tag:hover,
-html[lang="en"] .tag.hl { border-color: #ff6600; color: #ff6600; }
+html[lang="en"] .tag:hover, html[lang="en"] .tag.hl { border-color: #ff6600; color: #ff6600; }
 html[lang="en"] .p-tag.done { color: #ff6600; border-color: rgba(255,102,0,0.35); }
 html[lang="en"] .entry:hover { border-color: #ff6600; }
 html[lang="en"] .project-card:hover { border-color: #ff6600; }
@@ -546,11 +506,7 @@ html[data-theme="light"] {
   --accent2: #0044aa;
   --warn:    #aa5500;
 }
-html[data-theme="light"] body {
-  background: var(--bg);
-  color: var(--text);
-  background-color: #f0f0eb;
-}
+html[data-theme="light"] body { background: var(--bg); background-color: #f0f0eb; color: var(--text); }
 html[data-theme="light"] body::before { display: none; }
 html[data-theme="light"] .navbar { background: rgba(240,240,235,0.96); }
 html[data-theme="light"] .mobile-nav { background: rgba(240,240,235,0.98); }
@@ -562,11 +518,7 @@ html[data-theme="light"] .cert-name { color: #1a1a1a; }
 html[data-theme="light"] .contact-row:hover .cr-value { color: #1a1a1a; }
 html[data-theme="light"] .tag { background: var(--surface); color: var(--text); }
 html[data-theme="light"] .tag:hover,
-html[data-theme="light"] .tag.hl {
-  background: rgba(0,102,51,0.08);
-  color: var(--accent);
-  border-color: var(--accent);
-}
+html[data-theme="light"] .tag.hl { background: rgba(0,102,51,0.08); color: var(--accent); border-color: var(--accent); }
 html[data-theme="light"] .lang-btn.active { background: rgba(0,102,51,0.08); }
 html[data-theme="light"] .entry { border-left-color: var(--border); }
 html[data-theme="light"] .entry:hover { border-left-color: var(--accent); }
@@ -577,8 +529,7 @@ html[data-theme="light"] .p-tag.done { color: var(--accent); border-color: rgba(
 html[data-theme="light"] .p-tag.wip { color: var(--warn); border-color: rgba(170,85,0,0.35); }
 html[data-theme="light"] .contact-row { background: var(--surface); }
 html[data-theme="light"] .contact-row:hover { border-color: var(--accent); }
-html[data-theme="light"] input,
-html[data-theme="light"] textarea { background: var(--surface); color: var(--text); }
+html[data-theme="light"] input, html[data-theme="light"] textarea { background: var(--surface); color: var(--text); }
 html[data-theme="light"] .submit-btn { color: var(--accent); border-color: var(--accent); }
 html[data-theme="light"] .submit-btn:hover { background: rgba(0,102,51,0.08); }
 html[data-theme="light"] th { background: var(--surface); }

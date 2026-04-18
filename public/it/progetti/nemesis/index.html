@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="it">
+<script defer src="https://cloud.umami.is/script.js" data-website-id="52c0b4c8-11e7-4ed0-89e4-3b1106b0cf06"></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0d0d0d" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#f0f0eb" media="(prefers-color-scheme: light)" />
+  <title>nemesis — Giacomo Fantato</title>
+  <meta name="description" content="Giacomo Fantato — Software Engineer &amp; Data Scientist" />
+  <meta property="og:title" content="nemesis — Giacomo Fantato" />
+  <meta property="og:description" content="Giacomo Fantato — Software Engineer &amp; Data Scientist" />
+  <meta property="og:image" content="https://fgiacomo.github.io/og-image.png" />
+  
+  <meta property="og:url" content="https://fgiacomo.github.io/it/progetti/nemesis/" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://fgiacomo.github.io/og-image.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/main.css" />
+  
+  <link rel="alternate" hreflang="it" href="https://fgiacomo.github.io/it/" />
+  
+  <link rel="alternate" hreflang="en" href="https://fgiacomo.github.io/en/" />
+  
+  <script>
+    (function() {
+      var saved = localStorage.getItem('theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', saved);
+      var emoji = "⚡";
+      var svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">' + emoji + '</text></svg>';
+      var link = document.createElement('link');
+      link.rel = 'icon';
+      link.href = 'data:image/svg+xml,' + encodeURIComponent(svg);
+      document.head.appendChild(link);
+    })();
+  </script>
+</head>
+<body><nav class="navbar">
+  <div class="navbar-inner">
+    <a class="nav-logo" href="/it/about/">Giacomo Fantato</a>
+    
+    <div class="nav-right">
+      <ul class="nav-links">
+        
+        <li>
+          <a href="/it/about/"
+            >
+            chi sono
+          </a>
+        </li>
+        
+        <li>
+          <a href="/it/cv/"
+            >
+            cv
+          </a>
+        </li>
+        
+        <li>
+          <a href="/it/projects/"
+            >
+            progetti
+          </a>
+        </li>
+        
+        <li>
+          <a href="/it/certifications/"
+            >
+            certificazioni
+          </a>
+        </li>
+        
+        <li>
+          <a href="/it/contacts/"
+            >
+            contatti
+          </a>
+        </li>
+        
+        <li>
+          <a href="/nemesis/"
+            >
+            nemesis
+          </a>
+        </li>
+        
+      </ul>
+      <div class="lang-toggle">
+        <button class="lang-btn active"
+                onclick="switchLang('it')">IT</button>
+        <button class="lang-btn "
+                onclick="switchLang('en')">EN</button>
+      </div>
+      <button class="theme-btn" id="theme-toggle" onclick="toggleTheme()" title="toggle theme">◐</button>
+    </div>
+    
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-nav" id="mobile-nav">
+  
+  <a href="/it/about/"
+     >
+     chi sono
+  </a>
+  
+  <a href="/it/cv/"
+     >
+     cv
+  </a>
+  
+  <a href="/it/projects/"
+     >
+     progetti
+  </a>
+  
+  <a href="/it/certifications/"
+     >
+     certificazioni
+  </a>
+  
+  <a href="/it/contacts/"
+     >
+     contatti
+  </a>
+  
+  <a href="/nemesis/"
+     >
+     nemesis
+  </a>
+  
+  <div class="lang-row">
+    <button class="lang-btn active"
+            onclick="switchLang('it')">🇮🇹 IT</button>
+    <button class="lang-btn "
+            onclick="switchLang('en')">🇬🇧 EN</button>
+    <button class="theme-btn" onclick="toggleTheme()" title="toggle theme">◐</button>
+  </div>
+</div><main class="page">
+  <div class="page-header">
+  <div class="page-title">progetto nemesis<span class="cursor"></span></div>
+  <span class="status-badge">
+    <span class="status-dot"></span> sviluppo attivo · WIP
+  </span>
+</div>
+<div class="nemesis-subtitle">
+  Benvenuto in <strong>NEMESIS</strong> — il
+  <strong>N</strong>eural <strong>E</strong>ngine for <strong>M</strong>ulti-agent
+  <strong>E</strong>arly-warning <strong>S</strong>upervisory <strong>I</strong>ntelligence
+  <strong>S</strong>ystem.<br><br>
+  Una piattaforma AI agentiva progettata per la supervisione bancaria, concepita per rilevare,
+  segnalare e spiegare in tempo reale i segnali di rischio sistemico — combinando LLM,
+  pipeline RAG e orchestrazione multi-agente.
+</div>
+<div class="wip-banner">
+  Questo progetto è in sviluppo attivo. Dettagli, diagrammi architetturali e documentazione vengono aggiornati continuamente. Alcune sezioni potrebbero essere incomplete.
+</div>
+<section class="section">
+  <div class="section-title">panoramica</div>
+  <div class="entry">
+    <div class="entry-title">Dominio</div>
+    <div class="entry-desc">Supervisione Bancaria · FinReg</div>
+  </div>
+  <div class="entry">
+    <div class="entry-title">Paradigma</div>
+    <div class="entry-desc">Agentic AI · RAG · LLM</div>
+  </div>
+  <div class="entry">
+    <div class="entry-title">Stato</div>
+    <div class="entry-desc">WIP — Attivo</div>
+  </div>
+  <div class="entry">
+    <div class="entry-title">Istituzione</div>
+    <div class="entry-desc">BCE / SEBC</div>
+  </div>
+  <div class="entry">
+    <div class="entry-title">Stack Principale</div>
+    <div class="entry-desc">Python · LangChain · FastAPI</div>
+  </div>
+  <div class="entry">
+    <div class="entry-title">Tipologia</div>
+    <div class="entry-desc">Ricerca + Ingegneria</div>
+  </div>
+</section>
+<section class="section">
+  <div class="section-title">architettura di sistema</div>
+  <div class="arch-block">
+    <pre>
+┌─────────────────────────────────────────────────────┐
+│                   NEMESIS PLATFORM                  │
+└────────────────────────┬────────────────────────────┘
+                         │
+       ┌────────────────┴─────────────────┐
+       ▼                                 ▼
+┌──────────────┐                 ┌──────────────────┐
+│  Data Layer  │                 │  Agent Orchestr. │
+│  ─────────── │                 │  ──────────────  │
+│  CASPER API  │                 │  Supervisor Agt  │
+│  Reg. Docs   │                 │  Risk Analyst    │
+│  Time Series │                 │  Doc Retriever   │
+└──────┬───────┘                 └────────┬─────────┘
+       │                                  │
+       ▼                                  ▼
+┌──────────────┐                 ┌──────────────────┐
+│  RAG Engine  │ ◄──────────────►│  LLM Inference   │
+│  ─────────── │                 │  ──────────────  │
+│  Embeddings  │                 │  Early-warning   │
+│  Vector DB   │                 │  Scoring Model   │
+│  Chunking    │                 │  Explainability  │
+└──────────────┘                 └──────────────────┘
+    </pre>
+  </div>
+</section>
+<section class="section">
+  <div class="section-title">stack tecnologico</div>
+  <div class="stack-group">
+    <div class="stack-group-label">AI / ML</div>
+    <div class="tags">
+      <span class="tag hl">LangChain</span>
+      <span class="tag hl">RAG Pipelines</span>
+      <span class="tag hl">LLM Fine-tuning</span>
+      <span class="tag">Vector Databases</span>
+      <span class="tag">Embeddings</span>
+      <span class="tag">Sistemi Multi-agente</span>
+    </div>
+  </div>
+  <div class="stack-group">
+    <div class="stack-group-label">backend / infrastruttura</div>
+    <div class="tags">
+      <span class="tag hl">Python</span>
+      <span class="tag hl">FastAPI</span>
+      <span class="tag">Docker</span>
+      <span class="tag">REST API</span>
+      <span class="tag">PostgreSQL</span>
+      <span class="tag">Git</span>
+    </div>
+  </div>
+  <div class="stack-group">
+    <div class="stack-group-label">dominio</div>
+    <div class="tags">
+      <span class="tag">Supervisione Bancaria</span>
+      <span class="tag">Piattaforma CASPER</span>
+      <span class="tag">Reporting Regolamentare</span>
+      <span class="tag">Modellazione del Rischio</span>
+      <span class="tag">BCE / SEBC</span>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="section-title">obiettivi principali</div>
+  <div class="entry">
+    <div class="entry-title">01 · Rilevamento di Segnali di Early-warning</div>
+    <div class="entry-desc">Automatizzare il rilevamento di pattern anomali nelle sottomissioni di dati bancari, portando alla luce segnali di rischio prima che si trasformino in problemi sistemici.</div>
+  </div>
+  <div class="entry">
+    <div class="entry-title">02 · Intelligenza sui Documenti Regolamentari</div>
+    <div class="entry-desc">Costruire una pipeline RAG che renda la documentazione regolamentare della BCE immediatamente interrogabile, riducendo i tempi di validazione e gli errori umani nei flussi di conformità.</div>
+  </div>
+  <div class="entry">
+    <div class="entry-title">03 · Decisioni Agentive Spiegabili</div>
+    <div class="entry-desc">Garantire che ogni segnalazione o raccomandazione generata dall'AI sia tracciabile, verificabile e spiegabile — fondamentale per i casi d'uso supervisivi dove la responsabilità è obbligatoria.</div>
+  </div>
+</section>
+  <footer class="footer">
+    <span>last updated: Apr 2026</span>
+    <span><a href="https://github.com/fgiacomo" target="_blank">github</a></span>
+  </footer>
+
+  </main>
+  <script src="/js/lang.js"></script>
+  <script src="/js/nav.js"></script>
+  <script>
+    function toggleTheme() {
+      const current = document.documentElement.getAttribute('data-theme');
+      const next = current === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    }
+  </script>
+</body>
+</html>

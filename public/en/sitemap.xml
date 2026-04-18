@@ -86,6 +86,18 @@
                 href="https://fgiacomo.github.io/en/"
                 />
   </url><url>
+    <loc>https://fgiacomo.github.io/en/projects/nemesis/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://fgiacomo.github.io/it/progetti/nemesis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://fgiacomo.github.io/en/projects/nemesis/"
+                />
+  </url><url>
     <loc>https://fgiacomo.github.io/en/projects/</loc>
     <xhtml:link
                 rel="alternate"
