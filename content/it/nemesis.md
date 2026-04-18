@@ -52,15 +52,17 @@ emoji: "⚡"
       flex-wrap: wrap;
     }
   }
-  .tw-text { color: var(--accent); }
-  .tw-cursor {
+  .tw-text {
+    color: var(--accent);
+  }
+  .tw-text::after {
+    content: '';
     display: inline-block;
     width: 3px;
-    height: 1em;
+    height: 0.85em;
     background: var(--accent);
     margin-left: 4px;
     vertical-align: middle;
-    flex-shrink: 0;
     animation: blink 0.45s step-end infinite;
   }
 
@@ -187,7 +189,7 @@ emoji: "⚡"
 
   <div class="nemesis-typewriter">
     <div class="tw-line">
-      <span class="tw-text" id="tw-text"></span><span class="tw-cursor"></span>
+      <span class="tw-text" id="tw-text"></span>
     </div>
   </div>
 

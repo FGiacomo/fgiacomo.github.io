@@ -191,16 +191,17 @@
       flex-wrap: wrap;
     }
   }
-  .tw-text { color: var(--accent); }
-  .tw-cursor {
+  .tw-text {
+    color: var(--accent);
+  }
+  .tw-text::after {
+    content: '';
     display: inline-block;
     width: 3px;
-    height: 1em;
+    height: 0.85em;
     background: var(--accent);
     margin-left: 4px;
     vertical-align: middle;
-    flex-shrink: 0;
-    /* reuse global @keyframes blink */
     animation: blink 0.45s step-end infinite;
   }
 
@@ -325,7 +326,7 @@
   <div class="nemesis-label">project — classified</div>
   <div class="nemesis-typewriter">
     <div class="tw-line">
-      <span class="tw-text" id="tw-text"></span><span class="tw-cursor"></span>
+      <span class="tw-text" id="tw-text"></span>
     </div>
   </div>
   <div class="nemesis-status">
@@ -473,7 +474,7 @@
 
     const TYPE_SPEED   = 65;   // ms per character while typing
     const DELETE_SPEED = 32;   // ms per character while deleting
-    const PAUSE_TYPED  = 1400; // ms to hold after fully typed
+    const PAUSE_TYPED  = 1200; // ms to hold after fully typed
     const PAUSE_EMPTY  = 350;  // ms to hold after fully deleted
 
     function tick() {
