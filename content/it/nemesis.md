@@ -332,9 +332,9 @@ emoji: "⚡"
 <script>
   (function () {
     const phrases = [
-      'Siamo la Vigilanza Bancaria.',
-      'Siamo l\'AI Agentiva.',
-      'Siamo il Progetto NEMESIS.'
+      'We are Banking Supervision.',
+      'We are Agentic AI.',
+      'We are Project NEMESIS.'
     ];
 
     const el = document.getElementById('tw-text');
@@ -346,7 +346,7 @@ emoji: "⚡"
 
     const TYPE_SPEED   = 65;
     const DELETE_SPEED = 32;
-    const PAUSE_TYPED  = 1400;
+    const PAUSE_TYPED  = 1200;
     const PAUSE_EMPTY  = 350;
 
     function tick() {

@@ -1,6 +1,6 @@
 ---
 title: "nemesis"
-url: "/en/nemesis/"
+url: "/it/nemesis/"
 emoji: "⚡"
 ---
 
@@ -52,16 +52,17 @@ emoji: "⚡"
       flex-wrap: wrap;
     }
   }
-  .tw-text { color: var(--accent); }
-  .tw-cursor {
+  .tw-text {
+    color: var(--accent);
+  }
+  .tw-text::after {
+    content: '';
     display: inline-block;
     width: 3px;
-    height: 1em;
+    height: 0.85em;
     background: var(--accent);
     margin-left: 4px;
     vertical-align: middle;
-    flex-shrink: 0;
-    /* reuse global @keyframes blink */
     animation: blink 0.45s step-end infinite;
   }
 
@@ -184,69 +185,69 @@ emoji: "⚡"
 
 <!-- HERO -->
 <div class="nemesis-hero">
-  <div class="nemesis-label">project — classified</div>
+  <div class="nemesis-label">progetto — classificato</div>
 
   <div class="nemesis-typewriter">
     <div class="tw-line">
-      <span class="tw-text" id="tw-text"></span><span class="tw-cursor"></span>
+      <span class="tw-text" id="tw-text"></span>
     </div>
   </div>
 
   <div class="nemesis-status">
     <span class="status-dot"></span>
-    active development &nbsp;·&nbsp; WIP
+    sviluppo attivo &nbsp;·&nbsp; WIP
   </div>
 
   <div class="nemesis-subtitle">
-    Welcome to <strong>NEMESIS</strong> — the
+    Benvenuto in <strong>NEMESIS</strong> —
     <strong>N</strong>eural <strong>E</strong>ngine for <strong>M</strong>ulti-agent
     <strong>E</strong>arly-warning <strong>S</strong>upervisory <strong>I</strong>ntelligence
     <strong>S</strong>ystem.<br><br>
-    An agentic AI platform built for banking supervision, designed to detect, flag
-    and explain systemic risk signals in real time — combining LLMs, RAG pipelines
-    and multi-agent orchestration.
+    Una piattaforma di AI agentiva per la vigilanza bancaria, progettata per rilevare,
+    segnalare e spiegare i segnali di rischio sistemico in tempo reale — combinando LLM,
+    pipeline RAG e orchestrazione multi-agente.
   </div>
 </div>
 
 <!-- WIP BANNER -->
 <div class="wip-banner">
-  This project is under active development. Details, architecture diagrams and documentation are updated continuously. Some sections may be incomplete.
+  Questo progetto è in sviluppo attivo. Dettagli, diagrammi architetturali e documentazione vengono aggiornati continuamente. Alcune sezioni potrebbero essere incomplete.
 </div>
 
-<!-- OVERVIEW -->
+<!-- PANORAMICA -->
 <section class="section">
-  <div class="section-title">overview</div>
+  <div class="section-title">panoramica</div>
   <div class="overview-grid">
     <div class="ov-card">
-      <div class="ov-label">domain</div>
-      <div class="ov-value">Banking Supervision · FinReg</div>
+      <div class="ov-label">dominio</div>
+      <div class="ov-value">Vigilanza Bancaria · FinReg</div>
     </div>
     <div class="ov-card">
-      <div class="ov-label">paradigm</div>
+      <div class="ov-label">paradigma</div>
       <div class="ov-value">Agentic AI · RAG · LLM</div>
     </div>
     <div class="ov-card">
-      <div class="ov-label">status</div>
-      <div class="ov-value" style="color:var(--warn)">WIP — Active</div>
+      <div class="ov-label">stato</div>
+      <div class="ov-value" style="color:var(--warn)">WIP — Attivo</div>
     </div>
     <div class="ov-card">
-      <div class="ov-label">institution</div>
-      <div class="ov-value">ECB / ESCB context</div>
+      <div class="ov-label">istituzione</div>
+      <div class="ov-value">Contesto BCE / SEBC</div>
     </div>
     <div class="ov-card">
-      <div class="ov-label">core stack</div>
+      <div class="ov-label">stack principale</div>
       <div class="ov-value">Python · LangChain · FastAPI</div>
     </div>
     <div class="ov-card">
-      <div class="ov-label">type</div>
-      <div class="ov-value">Research + Engineering</div>
+      <div class="ov-label">tipo</div>
+      <div class="ov-value">Ricerca + Ingegneria</div>
     </div>
   </div>
 </section>
 
-<!-- ARCHITECTURE -->
+<!-- ARCHITETTURA -->
 <section class="section">
-  <div class="section-title">system architecture</div>
+  <div class="section-title">architettura di sistema</div>
   <div class="arch-block"><pre>
 <span class="hl">┌─────────────────────────────────────────────────────┐</span>
 <span class="hl">│                   NEMESIS PLATFORM                  │</span>
@@ -273,24 +274,24 @@ emoji: "⚡"
 </pre></div>
 </section>
 
-<!-- TECH STACK -->
+<!-- STACK TECNOLOGICO -->
 <section class="section">
-  <div class="section-title">tech stack</div>
+  <div class="section-title">stack tecnologico</div>
 
   <div class="stack-group">
     <div class="stack-group-label">AI / ML</div>
     <div class="tags">
       <span class="tag hl">LangChain</span>
-      <span class="tag hl">RAG Pipelines</span>
-      <span class="tag hl">LLM Fine-tuning</span>
-      <span class="tag">Vector Databases</span>
+      <span class="tag hl">Pipeline RAG</span>
+      <span class="tag hl">Fine-tuning LLM</span>
+      <span class="tag">Database Vettoriali</span>
       <span class="tag">Embeddings</span>
-      <span class="tag">Multi-agent Systems</span>
+      <span class="tag">Sistemi Multi-agente</span>
     </div>
   </div>
 
   <div class="stack-group">
-    <div class="stack-group-label">backend / infra</div>
+    <div class="stack-group-label">backend / infrastruttura</div>
     <div class="tags">
       <span class="tag hl">Python</span>
       <span class="tag hl">FastAPI</span>
@@ -302,40 +303,40 @@ emoji: "⚡"
   </div>
 
   <div class="stack-group">
-    <div class="stack-group-label">domain</div>
+    <div class="stack-group-label">dominio</div>
     <div class="tags">
-      <span class="tag">Banking Supervision</span>
-      <span class="tag">CASPER Platform</span>
-      <span class="tag">Regulatory Reporting</span>
-      <span class="tag">Risk Modeling</span>
-      <span class="tag">ECB / ESCB</span>
+      <span class="tag">Vigilanza Bancaria</span>
+      <span class="tag">Piattaforma CASPER</span>
+      <span class="tag">Segnalazione Regolamentare</span>
+      <span class="tag">Modellazione del Rischio</span>
+      <span class="tag">BCE / SEBC</span>
     </div>
   </div>
 </section>
 
-<!-- KEY OBJECTIVES -->
+<!-- OBIETTIVI CHIAVE -->
 <section class="section">
-  <div class="section-title">key objectives</div>
+  <div class="section-title">obiettivi chiave</div>
   <div class="entry" style="grid-template-columns:1fr; padding:18px; margin-bottom:8px;">
-    <div class="entry-title" style="font-size:13px; margin-bottom:6px;">01 · Early-warning Signal Detection</div>
-    <div class="entry-desc">Automate detection of anomalous patterns in banking data submissions, surfacing risk signals before they escalate into systemic issues.</div>
+    <div class="entry-title" style="font-size:13px; margin-bottom:6px;">01 · Rilevamento di Segnali di Allerta Precoce</div>
+    <div class="entry-desc">Automatizzare il rilevamento di pattern anomali nelle segnalazioni bancarie, portando a galla i segnali di rischio prima che si trasformino in problemi sistemici.</div>
   </div>
   <div class="entry" style="grid-template-columns:1fr; padding:18px; margin-bottom:8px;">
-    <div class="entry-title" style="font-size:13px; margin-bottom:6px;">02 · Regulatory Document Intelligence</div>
-    <div class="entry-desc">Build a RAG pipeline that makes ECB regulatory documentation instantly queryable, reducing validation time and human error in compliance workflows.</div>
+    <div class="entry-title" style="font-size:13px; margin-bottom:6px;">02 · Intelligenza sui Documenti Regolamentari</div>
+    <div class="entry-desc">Costruire una pipeline RAG che renda la documentazione regolamentare della BCE immediatamente interrogabile, riducendo i tempi di validazione e gli errori umani nei flussi di compliance.</div>
   </div>
   <div class="entry" style="grid-template-columns:1fr; padding:18px; margin-bottom:8px;">
-    <div class="entry-title" style="font-size:13px; margin-bottom:6px;">03 · Explainable Agentic Decisions</div>
-    <div class="entry-desc">Ensure every AI-generated flag or recommendation is traceable, auditable and explainable — critical for supervisory use cases where accountability is mandatory.</div>
+    <div class="entry-title" style="font-size:13px; margin-bottom:6px;">03 · Decisioni Agentive Spiegabili</div>
+    <div class="entry-desc">Garantire che ogni segnalazione o raccomandazione generata dall'AI sia tracciabile, verificabile e spiegabile — fondamentale in ambito di vigilanza dove la responsabilità è obbligatoria.</div>
   </div>
 </section>
 
 <script>
   (function () {
     const phrases = [
-      'We are Banking Supervision.',
-      'We are Agentic AI.',
-      'We are Project NEMESIS.'
+      'Siamo la Vigilanza Bancaria.',
+      'Siamo l\'AI Agentiva.',
+      'Siamo il Progetto NEMESIS.'
     ];
 
     const el = document.getElementById('tw-text');
@@ -345,10 +346,10 @@ emoji: "⚡"
     let charIdx   = 0;
     let deleting  = false;
 
-    const TYPE_SPEED   = 65;   // ms per character while typing
-    const DELETE_SPEED = 32;   // ms per character while deleting
-    const PAUSE_TYPED  = 1400; // ms to hold after fully typed
-    const PAUSE_EMPTY  = 350;  // ms to hold after fully deleted
+    const TYPE_SPEED   = 65;
+    const DELETE_SPEED = 32;
+    const PAUSE_TYPED  = 1200;
+    const PAUSE_EMPTY  = 350;
 
     function tick() {
       const phrase = phrases[phraseIdx];
