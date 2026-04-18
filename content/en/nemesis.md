@@ -45,6 +45,13 @@ emoji: "⚡"
     white-space: nowrap;
     overflow: hidden;
   }
+  @media (max-width: 600px) {
+    .tw-line {
+      white-space: normal;
+      overflow: visible;
+      flex-wrap: wrap;
+    }
+  }
   .tw-text { color: var(--accent); }
   .tw-cursor {
     display: inline-block;
