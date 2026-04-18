@@ -50,6 +50,11 @@ enableRobotsTXT = true
     url    = "/it/contacts/"
     weight = 5
 
+  [[languages.it.menus.main]]
+    name   = "nemesis"
+    url    = "/nemesis/"
+    weight = 6
+
 # ── ENGLISH ────────────────────────────────────────────────────
 [languages.en]
   languageName = "EN"
@@ -84,3 +89,8 @@ enableRobotsTXT = true
     name   = "contacts"
     url    = "/en/contacts/"
     weight = 5
+
+  [[languages.en.menus.main]]
+    name   = "nemesis"
+    url    = "/nemesis/"
+    weight = 6
