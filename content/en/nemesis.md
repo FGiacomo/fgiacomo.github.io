@@ -26,7 +26,7 @@ emoji: "⚡"
   .nemesis-label::before { content: '> '; color: var(--accent); }
 
   .nemesis-typewriter {
-    font-size: clamp(36px, 5.5vw, 62px);
+    font-size: clamp(18px, 5.5vw, 62px);
     font-weight: 700;
     color: #fff;
     line-height: 1.2;
@@ -42,6 +42,8 @@ emoji: "⚡"
   .tw-line {
     display: flex;
     align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
   }
   .tw-text { color: var(--accent); }
   .tw-cursor {
@@ -338,7 +340,7 @@ emoji: "⚡"
 
     const TYPE_SPEED   = 65;   // ms per character while typing
     const DELETE_SPEED = 32;   // ms per character while deleting
-    const PAUSE_TYPED  = 1000; // ms to hold after fully typed
+    const PAUSE_TYPED  = 1400; // ms to hold after fully typed
     const PAUSE_EMPTY  = 350;  // ms to hold after fully deleted
 
     function tick() {
