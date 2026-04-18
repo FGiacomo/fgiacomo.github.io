@@ -14,7 +14,6 @@ emoji: "⚡"
     padding: 60px 0 48px;
     border-bottom: 1px solid var(--border);
     margin-bottom: 48px;
-    position: relative;
   }
 
   .nemesis-label {
@@ -27,11 +26,11 @@ emoji: "⚡"
   .nemesis-label::before { content: '> '; color: var(--accent); }
 
   .nemesis-typewriter {
-    font-size: clamp(22px, 4vw, 38px);
+    font-size: clamp(36px, 5.5vw, 62px);
     font-weight: 700;
     color: #fff;
-    line-height: 1.25;
-    min-height: 3em;
+    line-height: 1.2;
+    min-height: 2.5em;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -43,22 +42,18 @@ emoji: "⚡"
   .tw-line {
     display: flex;
     align-items: center;
-    gap: 0;
   }
   .tw-text { color: var(--accent); }
   .tw-cursor {
     display: inline-block;
-    width: 2px;
-    height: 1.1em;
+    width: 3px;
+    height: 1em;
     background: var(--accent);
-    margin-left: 3px;
+    margin-left: 4px;
     vertical-align: middle;
-    animation: blink 0.9s step-end infinite;
     flex-shrink: 0;
-  }
-  @keyframes blink {
-    0%, 100% { opacity: 1; }
-    50%       { opacity: 0; }
+    /* reuse global @keyframes blink */
+    animation: blink 0.45s step-end infinite;
   }
 
   .nemesis-subtitle {
@@ -89,9 +84,9 @@ emoji: "⚡"
     height: 6px;
     border-radius: 50%;
     background: var(--warn);
-    animation: pulse 1.8s ease-in-out infinite;
+    animation: status-pulse 1.8s ease-in-out infinite;
   }
-  @keyframes pulse {
+  @keyframes status-pulse {
     0%, 100% { opacity: 1; transform: scale(1); }
     50%       { opacity: 0.4; transform: scale(0.7); }
   }
@@ -124,19 +119,22 @@ emoji: "⚡"
   .arch-block {
     background: var(--surface);
     border: 1px solid var(--border);
-    padding: 24px;
+    padding: 32px 24px;
     margin-bottom: 12px;
-    font-size: 12px;
-  }
-  .arch-block pre {
-    color: var(--dim);
-    font-family: var(--font);
-    font-size: 11px;
-    line-height: 1.8;
+    display: flex;
+    justify-content: center;
     overflow-x: auto;
   }
-  .arch-block pre .hl  { color: var(--accent); }
-  .arch-block pre .hl2 { color: var(--accent2); }
+  .arch-block pre {
+    margin: 0;
+    color: var(--dim);
+    font-family: var(--font);
+    font-size: 12px;
+    line-height: 1.85;
+    text-align: left;
+  }
+  .arch-block pre .hl   { color: var(--accent); }
+  .arch-block pre .hl2  { color: var(--accent2); }
   .arch-block pre .warn { color: var(--warn); }
 
   /* ── STACK GROUPS ── */
@@ -164,9 +162,11 @@ emoji: "⚡"
   }
   .wip-banner::before { content: '⚠'; flex-shrink: 0; }
 
+  /* ── RESPONSIVE ── */
   @media (max-width: 700px) {
     .overview-grid { grid-template-columns: 1fr 1fr; }
-    .nemesis-typewriter { font-size: 20px; }
+    .nemesis-typewriter { font-size: clamp(28px, 7vw, 38px); }
+    .nemesis-hero { min-height: 60vh; }
   }
   @media (max-width: 440px) {
     .overview-grid { grid-template-columns: 1fr; }
@@ -179,7 +179,7 @@ emoji: "⚡"
 
   <div class="nemesis-typewriter">
     <div class="tw-line">
-      <span class="tw-text" id="tw-text"></span><span class="tw-cursor" id="tw-cursor"></span>
+      <span class="tw-text" id="tw-text"></span><span class="tw-cursor"></span>
     </div>
   </div>
 
@@ -238,32 +238,30 @@ emoji: "⚡"
 <!-- ARCHITECTURE -->
 <section class="section">
   <div class="section-title">system architecture</div>
-  <div class="arch-block">
-    <pre>
+  <div class="arch-block"><pre>
 <span class="hl">┌─────────────────────────────────────────────────────┐</span>
 <span class="hl">│                   NEMESIS PLATFORM                  │</span>
 <span class="hl">└────────────────────────┬────────────────────────────┘</span>
                          │
-       <span class="hl2">┌────────────────┴─────────────────┐</span>
-       <span class="hl2">▼</span>                                 <span class="hl2">▼</span>
-<span class="hl2">┌──────────────┐</span>                 <span class="hl2">┌──────────────────┐</span>
-<span class="hl2">│  Data Layer  │</span>                 <span class="hl2">│  Agent Orchestr. │</span>
-<span class="hl2">│  ─────────── │</span>                 <span class="hl2">│  ──────────────  │</span>
-<span class="hl2">│  CASPER API  │</span>                 <span class="hl2">│  Supervisor Agt  │</span>
-<span class="hl2">│  Reg. Docs   │</span>                 <span class="hl2">│  Risk Analyst    │</span>
-<span class="hl2">│  Time Series │</span>                 <span class="hl2">│  Doc Retriever   │</span>
-<span class="hl2">└──────┬───────┘</span>                 <span class="hl2">└────────┬─────────┘</span>
-       │                                  │
-       <span class="warn">▼</span>                                  <span class="warn">▼</span>
-<span class="warn">┌──────────────┐</span>                 <span class="warn">┌──────────────────┐</span>
+<span class="hl2">        ┌────────────────┴─────────────────┐</span>
+<span class="hl2">        ▼                                   ▼</span>
+<span class="hl2">┌──────────────┐                 ┌──────────────────┐</span>
+<span class="hl2">│  Data Layer  │                 │  Agent Orchestr. │</span>
+<span class="hl2">│  ─────────── │                 │  ──────────────  │</span>
+<span class="hl2">│  CASPER API  │                 │  Supervisor Agt  │</span>
+<span class="hl2">│  Reg. Docs   │                 │  Risk Analyst    │</span>
+<span class="hl2">│  Time Series │                 │  Doc Retriever   │</span>
+<span class="hl2">└───────┬──────┘                 └─────────┬────────┘</span>
+        │                                   │
+<span class="warn">        ▼                                   ▼</span>
+<span class="warn">┌──────────────┐                 ┌──────────────────┐</span>
 <span class="warn">│  RAG Engine  │ ◄──────────────►│  LLM Inference   │</span>
-<span class="warn">│  ─────────── │</span>                 <span class="warn">│  ──────────────  │</span>
-<span class="warn">│  Embeddings  │</span>                 <span class="warn">│  Early-warning   │</span>
-<span class="warn">│  Vector DB   │</span>                 <span class="warn">│  Scoring Model   │</span>
-<span class="warn">│  Chunking    │</span>                 <span class="warn">│  Explainability  │</span>
-<span class="warn">└──────────────┘</span>                 <span class="warn">└──────────────────┘</span>
-    </pre>
-  </div>
+<span class="warn">│  ─────────── │                 │  ──────────────  │</span>
+<span class="warn">│  Embeddings  │                 │  Early-warning   │</span>
+<span class="warn">│  Vector DB   │                 │  Scoring Model   │</span>
+<span class="warn">│  Chunking    │                 │  Explainability  │</span>
+<span class="warn">└──────────────┘                 └──────────────────┘</span>
+</pre></div>
 </section>
 
 <!-- TECH STACK -->
@@ -324,49 +322,48 @@ emoji: "⚡"
 </section>
 
 <script>
-  (function() {
+  (function () {
     const phrases = [
       'We are Banking Supervision.',
       'We are Agentic AI.',
       'We are Project NEMESIS.'
     ];
+
     const el = document.getElementById('tw-text');
     if (!el) return;
-    let phraseIdx = 0, charIdx = 0, deleting = false, pauseTicks = 0;
 
-    const PAUSE_AFTER_TYPE   = 52;
-    const PAUSE_AFTER_DELETE = 12;
-    const TYPE_SPEED         = 70;
-    const DELETE_SPEED       = 38;
+    let phraseIdx = 0;
+    let charIdx   = 0;
+    let deleting  = false;
+
+    const TYPE_SPEED   = 65;   // ms per character while typing
+    const DELETE_SPEED = 32;   // ms per character while deleting
+    const PAUSE_TYPED  = 1000; // ms to hold after fully typed
+    const PAUSE_EMPTY  = 350;  // ms to hold after fully deleted
 
     function tick() {
       const phrase = phrases[phraseIdx];
+
       if (!deleting) {
-        charIdx++;
-        el.textContent = phrase.slice(0, charIdx);
+        el.textContent = phrase.slice(0, ++charIdx);
         if (charIdx === phrase.length) {
-          pauseTicks = PAUSE_AFTER_TYPE;
           deleting = true;
-          scheduleNext(TYPE_SPEED * pauseTicks);
-          return;
+          setTimeout(tick, PAUSE_TYPED);
+        } else {
+          setTimeout(tick, TYPE_SPEED);
         }
-        scheduleNext(TYPE_SPEED);
       } else {
-        if (pauseTicks > 0) { pauseTicks--; scheduleNext(TYPE_SPEED); return; }
-        charIdx--;
-        el.textContent = phrase.slice(0, charIdx);
+        el.textContent = phrase.slice(0, --charIdx);
         if (charIdx === 0) {
-          deleting = false;
+          deleting  = false;
           phraseIdx = (phraseIdx + 1) % phrases.length;
-          pauseTicks = PAUSE_AFTER_DELETE;
-          scheduleNext(DELETE_SPEED * pauseTicks);
-          return;
+          setTimeout(tick, PAUSE_EMPTY);
+        } else {
+          setTimeout(tick, DELETE_SPEED);
         }
-        scheduleNext(DELETE_SPEED);
       }
     }
 
-    function scheduleNext(delay) { setTimeout(tick, delay); }
-    scheduleNext(600);
+    setTimeout(tick, 600);
   })();
 </script>
