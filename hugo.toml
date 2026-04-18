@@ -52,7 +52,7 @@ enableRobotsTXT = true
 
   [[languages.it.menus.main]]
     name   = "nemesis"
-    url    = "/nemesis/"
+    url    = "/it/nemesis/"
     weight = 6
 
 # ── ENGLISH ────────────────────────────────────────────────────
@@ -92,5 +92,5 @@ enableRobotsTXT = true
 
   [[languages.en.menus.main]]
     name   = "nemesis"
-    url    = "/nemesis/"
+    url    = "/en/nemesis/"
     weight = 6
