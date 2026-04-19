@@ -185,7 +185,7 @@ emoji: "⚡"
 
 <!-- HERO -->
 <div class="nemesis-hero">
-  <div class="nemesis-label">project — classified</div>
+  <div class="nemesis-label">project — public</div>
 
   <div class="nemesis-typewriter">
     <div class="tw-line">
