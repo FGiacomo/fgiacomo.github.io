@@ -336,6 +336,9 @@ emoji: "⚡"
     const phrases = [
       'We are Banking Supervision.',
       'We are Agentic AI.',
+      'We are Financial Resilience.',
+      'We are Compliance Engineering.',
+      'We are Operational Excellence.',
       'We are Project NEMESIS.'
     ];
 
