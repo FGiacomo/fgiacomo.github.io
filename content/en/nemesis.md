@@ -1,6 +1,6 @@
 ---
-title: "nemesis — roadmap"
-url: "/en/nemesis/roadmap/"
+title: "nemesis"
+url: "/en/nemesis/"
 emoji: "🗺️"
 ---
 
